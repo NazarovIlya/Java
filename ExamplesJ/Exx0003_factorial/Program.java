@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
 public class Program {
-    public static void main(String[] args) {
-        System.out.println("Enter the intger:\t\n");
+    public static void main(String[] args){
+        System.out.println("Enter the intger:");
         Scanner iScanner = new Scanner(System.in);
         int num = iScanner.nextInt();
         double result = Factorial(num);
         iScanner.close();
-        System.out.printf("Factorial of %d: %d", num, result);
+        System.out.printf("Factorial of %d: %f", num, result);
     }
 
     public static double Factorial(int number) {
@@ -18,14 +18,6 @@ public class Program {
 }
 
 
-    
-        
-    
 
-    
-        
-    
 
-    
-        
-    
+
