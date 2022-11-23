@@ -10,9 +10,12 @@ import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
+        System.out.println("Время местное: ");
         System.out.println(LocalDateTime.now().getHour());
         Scanner iScanner = new Scanner(System.in);
+        System.out.println("Введите свое имя: ");
         String name = iScanner.nextLine();
+        iScanner.close();
         int hour = LocalDateTime.now().getHour();
         String text = "";
 
