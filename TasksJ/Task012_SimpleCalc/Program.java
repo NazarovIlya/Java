@@ -29,6 +29,7 @@ public class Program {
         switch (symbol) {
             case '+':
                 res = Sum(first, second);
+                break;
             case '-':
                 res = Sub(first, second);
                 break;
