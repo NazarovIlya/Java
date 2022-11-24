@@ -28,7 +28,7 @@ public class Program {
         double res = 0;
         switch (symbol) {
             case '+':
-                res = Summ(first, second);
+                res = Sum(first, second);
             case '-':
                 res = Sub(first, second);
                 break;
@@ -48,7 +48,7 @@ public class Program {
         return res;
     }
 
-    public static double Summ(double first, double second) {
+    public static double Sum(double first, double second) {
         return first + second;
     }
 
