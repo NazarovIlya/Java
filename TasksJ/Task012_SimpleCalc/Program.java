@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 // Семинар 1, задание 3.
@@ -8,23 +10,25 @@ public class Program {
     public static void main(String[] args) {
         Scanner iScanner = new Scanner(System.in);
         System.out.println(
-                "Введите врыжение, результат, которого Вы хотите узнать. Например '2 * 2'. Вводить строго через один пробел.");
-        String[] ArrayString = iScanner.nextLine().split(" ");
+                "Введите врыжение, результат, которого Вы хотите узнать.\nНапример '2 * 2'. Вводить строго через один пробел.");
+        List<String> arr = new ArrayList<>(
+                Arrays.asList(iScanner.nextLine().split(" ")));
         iScanner.close();
-        double firstNum = Double.parseDouble((ArrayString[0]));
-        char mathSymbol = ArrayString[1].charAt(0);
-        double secondNum = Double.parseDouble((ArrayString[2]));
-        System.out.printf("%.2f %c %.2f\n", firstNum, mathSymbol, secondNum);
+        arr.removeAll(Arrays.asList("", ",", null));
+        System.out.println(arr);
+        double firstNum = Double.parseDouble(arr.get(0));
+        char mathSymbol = arr.get(1).charAt(0);
+        double secondNum = Double.parseDouble(arr.get(2));
         double result = Action(firstNum, mathSymbol, secondNum);
-        System.out.printf("%f %c %f = %f\n", firstNum, mathSymbol, secondNum, result);
-
+        System.out.printf("%.2f %c %.2f = %.2f\n", firstNum, mathSymbol, secondNum,
+                result);
     }
 
     public static double Action(double first, char symbol, double second) {
         double res = 0;
         switch (symbol) {
             case '+':
-                res = Sum(first, second);
+                res = Summ(first, second);
             case '-':
                 res = Sub(first, second);
                 break;
@@ -37,14 +41,14 @@ public class Program {
             case '%':
                 res = ModDiv(first, second);
                 break;
-            // default:
-            // System.out.println("Ошибка.");
-            // break;
+            case '^':
+                res = Power(first, second);
+                break;
         }
         return res;
     }
 
-    public static double Sum(double first, double second) {
+    public static double Summ(double first, double second) {
         return first + second;
     }
 
@@ -66,8 +70,8 @@ public class Program {
 
     public static double Power(double first, double second) {
         double result = first;
-        for (int i = 0; i < second; i++) {
-            result *= first;
+        for (int i = 1; i < second; i++) {
+            result = result * second;
         }
         return result;
     }
