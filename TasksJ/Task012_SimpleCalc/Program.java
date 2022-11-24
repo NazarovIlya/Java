@@ -71,7 +71,7 @@ public class Program {
     public static double Power(double first, double second) {
         double result = first;
         for (int i = 1; i < second; i++) {
-            result = result * second;
+            result *= result;
         }
         return result;
     }
