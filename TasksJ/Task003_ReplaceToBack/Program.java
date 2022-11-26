@@ -7,7 +7,6 @@
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
@@ -19,11 +18,11 @@ public class Program {
         int length = currentList.get(0);
         int value = currentList.get(1);
         int[] arr = FillArray(length); // new int[] { 3, 2, 2, 3 };
-        int[] arrNew = MoveToEnd(arr, value);
         System.out.println("Исходный массив ");
         System.out.println(Arrays.toString(arr));
+        MoveToEnd(arr, value);
         System.out.println("Полученный изменненый массив: ");
-        System.out.println(Arrays.toString(arrNew));
+        System.out.println(Arrays.toString(arr));
     }
 
     public static List<Integer> InputNumbers() {
@@ -58,23 +57,25 @@ public class Program {
         int[] array = new int[length];
         Random random = new Random();
         for (int i = 0; i < array.length; i++) {
-            array[i] = random.nextInt(1, 10);
+            array[i] = random.nextInt(1, 11);
         }
         return array;
     }
 
-    public static int[] MoveToEnd(int[] array, int value) {
-        int itr = 0;
-        int length = array.length - 1;
+    public static void MoveToEnd(int[] array, int value) {
+        int length = array.length;
+        int itr = 1;
         for (int i = 0; i < length; i++) {
-            if (array[i] == value) {
-                int temp = 0;
-                temp = array[length - itr];
-                array[length - itr] = array[i];
-                array[i] = temp;
-                itr++;
+            for (int j = 0; j < array.length; j++) {
+                if (array[i] != value) {
+                    int temp = 0;
+                    temp = array[i];
+                    array[i] = array[j];
+                    array[j] = temp;
+                    itr++;
+                }
+
             }
         }
-        return array;
     }
 }
