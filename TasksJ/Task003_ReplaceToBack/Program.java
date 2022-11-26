@@ -64,7 +64,6 @@ public class Program {
 
     public static void MoveToEnd(int[] array, int value) {
         int length = array.length;
-        int itr = 1;
         for (int i = 0; i < length; i++) {
             for (int j = 0; j < array.length; j++) {
                 if (array[i] != value) {
@@ -72,9 +71,7 @@ public class Program {
                     temp = array[i];
                     array[i] = array[j];
                     array[j] = temp;
-                    itr++;
                 }
-
             }
         }
     }
