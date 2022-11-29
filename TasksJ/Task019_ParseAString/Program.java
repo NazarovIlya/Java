@@ -29,19 +29,16 @@ public class Program {
                 String age = PrepareString(Arrays.asList(unParse[3]
                                 .split(":")[1]).toString());
 
-                // OUTPUT TO CONSOLE
-                System.out.printf("%s, %s, %s, %s\n", name, country, city, age);
-
                 // REQUEST FORMATION
                 StringBuilder sqlRequest = new StringBuilder()
                                 .append("SELECT * FROM students WHERE ");
-                if (name != null)
+                if (name != "")
                         sqlRequest.append(" and name=")
                                         .append(name);
-                if (country != null)
+                if (country != "")
                         sqlRequest.append(" and country=")
                                         .append(country);
-                if (city != null)
+                if (city != "")
                         sqlRequest.append(" and city=")
                                         .append(city);
                 if (age != "")
