@@ -23,9 +23,8 @@ public class Program {
         strList.removeAll(Arrays.asList(null, "", null));
         strList.removeAll(Arrays.asList(",", "", null));
         for (int i = 0; i < strList.size() - 1; i++) {
-            if (isNumeric(strList.get(i)))
-                if (Integer.parseInt(strList.get(i)) % 2 == 0)
-                    strList.remove(i);
+            if (Integer.parseInt(strList.get(i)) % 2 == 0)
+                strList.remove(i);
         }
     }
 
