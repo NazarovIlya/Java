@@ -14,9 +14,9 @@ public class Program {
         List<String> strList = new ArrayList<String>(
                 Arrays.asList(iScanner.nextLine().split(" ")));
         iScanner.close();
-        System.out.printf("Исходный список: %s \n", String.join(",", strList));
+        System.out.printf("Исходный список: %s \n", String.join(", ", strList));
         CorrectSymbols(strList);
-        System.out.printf("Список без четных чисел: %s \n", String.join(",", strList));
+        System.out.printf("Список без четных чисел: %s \n", String.join(", ", strList));
     }
 
     public static void CorrectSymbols(List<String> strList) {
