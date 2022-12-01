@@ -16,15 +16,27 @@ public class Program {
         iScanner.close();
         System.out.printf("Исходный список: %s \n", String.join(", ", strList));
         CorrectSymbols(strList);
-        System.out.printf("Список без четных чисел: %s \n", String.join(", ", strList));
+    }
+
+    public static int MixInt(List<String> listNumbers) {
+        int min = Integer.parseInt(listNumbers.get(0));
+        for (int i = 0; i < listNumbers.size() - 1; i++) {
+            if (Integer.parseInt(listNumbers.get(i)) < min)
+                min = Integer.parseInt(listNumbers.get(i));
+        }
+        return min;
+    }
+
+    public static int MaxInt(List<String> listNumbes){
+        int max = Integer.parseInt(listNumbes.get(0));
+        for (int i = 0; i < listNumbes.size() - 1; i++) {
+            if(Integer.parseInt(listNumbes.get(i)) > max max = Integer.parseInt(Integer.parseInt(null))
+        }
+        return max;
     }
 
     public static void CorrectSymbols(List<String> strList) {
         strList.removeAll(Arrays.asList(null, "", null));
         strList.removeAll(Arrays.asList(",", "", null));
-        for (int i = 0; i < strList.size() - 1; i++) {
-            if (Integer.parseInt(strList.get(i)) % 2 == 0)
-                strList.remove(i);
-        }
     }
 }

@@ -1,6 +1,5 @@
-// ДЗ 3.3
-// Задан целочисленный список ArrayList. 
-// Найти минимальное, максимальное и среднее из этого списка.
+// ДЗ 3.2
+// Пусть дан произвольный список целых чисел, удалить из него четные числа.
 
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -24,17 +23,8 @@ public class Program {
         strList.removeAll(Arrays.asList(null, "", null));
         strList.removeAll(Arrays.asList(",", "", null));
         for (int i = 0; i < strList.size() - 1; i++) {
-            if (isNotNumeric(strList.get(i)))
+            if (Integer.parseInt(strList.get(i)) % 2 == 0)
                 strList.remove(i);
-        }
-    }
-
-    public static boolean isNotNumeric(String str) {
-        try {
-            Integer.parseInt(str);
-            return false;
-        } catch (NumberFormatException e) {
-            return true;
         }
     }
 }
