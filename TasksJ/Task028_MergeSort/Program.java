@@ -6,8 +6,10 @@ import java.util.Arrays;
 public class Program {
     public static void main(String[] args) {
         int[] myArray = new int[] { 9, 4, 7, 1, 8, 3, 5, 2, 6 };
+        System.out.print("Исходный массив:\t");
         System.out.println(Arrays.toString(myArray));
         MergeSortRecursive(myArray, 0, myArray.length - 1);
+        System.out.print("Отсортированный массив:\t");
         System.out.println(Arrays.toString(myArray));
     }
 
