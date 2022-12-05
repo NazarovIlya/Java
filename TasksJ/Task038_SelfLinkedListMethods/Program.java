@@ -13,12 +13,18 @@ public class Program {
         Scanner iScanner = new Scanner(System.in);
         System.out.println("Введите количество элементов списка.");
         int size = iScanner.nextInt();
-        iScanner.close();
+        // iScanner.close();
         LinkedList<Integer> linkedList = CreateNFillLinkedList(size);
         System.out.printf("Исходный список: %s\n", linkedList);
+        System.out.println("Введите значение нового элемента: ");
+        int newEl = iScanner.nextInt();
+        iScanner.close();
+        Enqueue(linkedList, newEl);
+        System.out.printf("Cписок с добавленным элементом %s: %s\n", newEl, linkedList);
         int res = Dequeue(linkedList);
-        System.out.printf("Конечный список: %s,\nПервый элемент списка, который был удален %s\n", linkedList, res);
-
+        System.out.printf("Cписок: %s,\nПервый элемент списка, который был удален %s\n", linkedList, res);
+        res = First(linkedList);
+        System.out.printf("Cписок: %s,\nПервый элемент списка, который не был удален %s\n", linkedList, res);
     }
 
     public static LinkedList<Integer> CreateNFillLinkedList(int size) {

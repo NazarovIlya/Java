@@ -1,10 +1,9 @@
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Random;
-import java.util.Scanner;
-
 // Пусть дан LinkedList с несколькими элементами. 
 // Реализуйте метод, который вернет “перевернутый” список.
+
+import java.util.LinkedList;
+import java.util.Random;
+import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
