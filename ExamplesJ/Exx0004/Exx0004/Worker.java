@@ -19,4 +19,15 @@ public class Worker {
     public String toString() {
         return String.format("id: %s", ID);
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        var o = (Worker) obj;
+        return ID == o.ID;
+    }
+
+    @Override
+    public int hashCode() {
+        return ID;
+    }
 }

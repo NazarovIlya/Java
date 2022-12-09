@@ -6,10 +6,16 @@
 // Пример 5: <{a}+{(d*3)}> - истина
 // Пример 6: {a+]}{(d*3)} - ложь
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+/* 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class Program {
     public static void main(String[] args) {
@@ -18,15 +24,18 @@ public class Program {
         // System.out.printf("Введите выражение ");
         // String str = iScanner.nextLine();
         // iScanner.close();
-        String str = "a+(d*3)-[d+c]";
-        String[] ch = str.split("");
-        System.out.println(Arrays.toString(ch));
+        String str = "a + (d * 3)-[d + c]";
+        String[] strArray = str.replaceAll(" ", "")
+                .split("");
+        System.out.println(Arrays.toString(strArray));
 
-        Map<String, Integer> db = new HashMap<>();
-        db.put("(", 0);
-        db.put(")", 0);
-        db.put("[", 0);
-        db.put("]", 0);
+        Map<String, Integer> mapStaples = new HashMap<>();
+        mapStaples.put("(", 0);
+        mapStaples.put(")", 0);
+        mapStaples.put("[", 0);
+        mapStaples.put("]", 0);
+
+        Stack<String> stack = new Stack<>();
 
         Map<String, Boolean> flag = new HashMap<>();
         flag.put("(", false);
@@ -37,26 +46,26 @@ public class Program {
         // {} () [] <>
         boolean fl = false;
         int count = 0;
-        for (String sym : ch) {
+        for (String sym : strArray) {
             if (((flag.get("(") && (sym.equals(")"))) || ((flag.get("[") && (sym.equals("]")))))) {
-                db.put("(", -1);
+                mapStaples.put("(", -1);
                 break;
             }
             if (sym.equals("(")) {
-                count = db.get("(");
-                db.put("(", ++count);
+                count = mapStaples.get("(");
+                mapStaples.put("(", ++count);
                 // поднять флаг (
                 flag.put("(", true);
                 fl = true;
-                System.out.printf("( %s \n", db.get("("));
+                System.out.printf("(!!! %s \n", mapStaples.get("("));
 
             } else if (sym.equals(")")) {
                 System.out.printf("fl %s\n", fl);
                 System.out.printf("flag %s\n", flag.get("("));
                 if (fl) {
                     if (flag.get("(")) {
-                        count = db.get(")");
-                        db.put(")", ++count);
+                        count = mapStaples.get(")");
+                        mapStaples.put(")", ++count);
                         flag.put(")", false);
                         fl = false;
                     }
@@ -64,24 +73,24 @@ public class Program {
                 // count = db.get(")");
                 // db.put(")", ++count);
                 // опустить флаг )
-                System.out.printf("( %s \n", db.get("("));
+                System.out.printf("( %s \n", mapStaples.get("("));
             }
 
             if (sym.equals("[")) {
-                count = db.get("[");
-                db.put("[", ++count);
+                count = mapStaples.get("[");
+                mapStaples.put("[", ++count);
                 // поднять флаг (
                 flag.put("[", true);
                 fl = true;
-                System.out.printf("[ %s \n", db.get("["));
+                System.out.printf("[ %s \n", mapStaples.get("["));
 
             } else if (sym.equals("]")) {
                 System.out.printf("fl %s\n", fl);
                 System.out.printf("flag %s\n", flag.get("["));
                 if (fl) {
                     if (flag.get("[")) {
-                        count = db.get("]");
-                        db.put("]", ++count);
+                        count = mapStaples.get("]");
+                        mapStaples.put("]", ++count);
                         flag.put("[", false);
                         fl = false;
                     }
@@ -89,12 +98,27 @@ public class Program {
                 // count = db.get(")");
                 // db.put(")", ++count);
                 // опустить флаг )
-                System.out.printf("[ %s \n", db.get("["));
+                System.out.printf("[ %s \n", mapStaples.get("["));
             }
         }
-        if ((db.get("(") == db.get(")")) & (db.get("[") == db.get("]"))) {
+        if ((mapStaples.get("(") == mapStaples.get(")")) & (mapStaples.get("[") == mapStaples.get("]"))) {
             System.out.println("True");
         } else
             System.out.println("False");
     }
+}
+*/
+public class Program {
+    public static void main(String[] args) {
+        // Data input
+        Scanner iScanner = new Scanner(System.in);
+        String userInput = iScanner.nextLine().replaceAll(" ", "");
+        iScanner.close();
+
+        Map<String, Boolean> bracketsMap = new HashMap<>();
+        bracketsMap.put("(", ")");
+        bracketsMap.put("[", "]");
+    }
+
+    public static boolean 
 }

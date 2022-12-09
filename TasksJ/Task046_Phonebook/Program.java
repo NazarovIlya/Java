@@ -4,8 +4,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
-import java.util.jar.Attributes.Name;
-import javax.swing.Icon;
 
 public class Program {
     public static void main(String[] args) {
@@ -28,10 +26,8 @@ public class Program {
                 String phone = userInput[1];
                 addContact(phoneBook, name, phone);
             }
-
-            System.out.println(userInput[0]);
-            System.out.println(userInput[1]);
-            System.out.println(phoneBook.toString());
+            System.out.printf("Сформированный справочник %s\n",
+                    phoneBook.toString());
         }
         iScanner.close();
     }
@@ -41,24 +37,6 @@ public class Program {
             return false;
         return true;
     }
-
-    // public static void ActionCoice(HashMap<String, ArrayList<String>> book,
-    // String name, String phone) {
-    // Scanner iChoice = new Scanner(System.in);
-    // System.out.println("Для добавления контакта введите - 1\n");
-    // int choice = iChoice.nextInt();
-    // iChoice.close();
-    // switch (choice) {
-    // case 1:
-    // addContact(book, name, phone);
-    // break;
-    // case 2:
-    // // break;
-
-    // default:
-    // break;
-    // }
-    // }
 
     public static void addContact(HashMap<String, ArrayList<String>> book, String name, String phone) {
         if (book.containsKey(name)) {
