@@ -17,7 +17,7 @@ public class Program {
 
         List<Notebook> notebooks = new ArrayList<>();
         // Заполняем список:
-        notebooks.add(new Notebook(notebooks.size(), "Aplle", "MacBook Pro", "Silver", 13.3, "M2", "SSD", 3.2, 32, 1024,
+        notebooks.add(new Notebook(notebooks.size(), "Apple", "MacBook Pro", "Silver", 13.3, "M2", "SSD", 3.2, 32, 1024,
                 "MacOS"));
         notebooks.add(
                 new Notebook(notebooks.size(), "Huawei", "MateBook 14", "Grey", 14.2, "AMD Ryzen", "SSD", 2.2, 16, 512,
@@ -47,7 +47,12 @@ public class Program {
             System.out.println(notebook.getInfo());
             System.out.println();
         }
-        NotebookInfo notebookList = new NotebookInfo();
-        List<Notebook> filterList = notebookList.View(notebooks);
+        NotebookInfo notebookList = new NotebookInfo(notebooks);
+        List<Notebook> filterList = notebookList.View();
+        System.out.println(filterList.size());
+        for (Notebook notebook : filterList) {
+            System.out.println(notebook.getInfo());
+            System.out.println();
+        }
     }
 }

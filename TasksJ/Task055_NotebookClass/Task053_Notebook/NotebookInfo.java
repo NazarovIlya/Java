@@ -14,9 +14,15 @@ public class NotebookInfo {
     public NotebookInfo() {
     }
 
-    public List<Notebook> View(List<Notebook> notebooks) {
+    public List<Notebook> View() {
+        for (Notebook notebook : this.notebooks) {
+            System.out.println(notebook.toString());
+        }
         int userChoice = OutputView();
-        List<Notebook> resulList = Filter(notebooks, userChoice);
+        List<Notebook> resulList = Filter(userChoice);
+        for (Notebook notebook : resulList) {
+            System.out.println(notebook);
+        }
         return resulList;
     }
 
@@ -44,7 +50,7 @@ public class NotebookInfo {
         return choice;
     }
 
-    private List<Notebook> Filter(List<Notebook> notebooks, int choice) {
+    private List<Notebook> Filter(int choice) {
         List<Notebook> filterList = new ArrayList<>();
         int value = 0;
         double dValue = 0;
@@ -61,63 +67,68 @@ public class NotebookInfo {
                 break;
             case 9:
                 value = iScanner.nextInt();
-                for (Notebook notebook : notebooks) {
+                for (Notebook notebook : this.notebooks) {
                     if (notebook.getRAM() == value)
                         filterList.add(notebook);
                 }
                 break;
             case 10:
                 value = iScanner.nextInt();
-                for (Notebook notebook : notebooks) {
+                for (Notebook notebook : this.notebooks) {
                     if (notebook.getDiskValue() == value)
                         filterList.add(notebook);
                 }
                 break;
             case 5:
                 dValue = iScanner.nextDouble();
-                for (Notebook notebook : notebooks) {
+                for (Notebook notebook : this.notebooks) {
                     if (notebook.getDiagonal() == dValue)
                         filterList.add(notebook);
                 }
                 break;
             case 8:
                 dValue = iScanner.nextDouble();
-                for (Notebook notebook : notebooks) {
+                for (Notebook notebook : this.notebooks) {
                     if (notebook.getCPUFrequency() == dValue)
                         filterList.add(notebook);
                 }
                 break;
             case 2:
                 sValue = iScanner.nextLine();
-                for (Notebook notebook : notebooks) {
-                    if (notebook.getManufactorer() == sValue)
+                System.out.printf("string value: %s\n\n", sValue);
+                for (Notebook notebook : this.notebooks) {
+                    System.out.printf("get: %s\n", notebook.getManufactorer());
+
+                    if (notebook.getManufactorer() == sValue) {
                         filterList.add(notebook);
+                        System.out.println(notebook.getManufactorer());
+                    }
                 }
                 break;
             case 3:
                 sValue = iScanner.nextLine();
-                for (Notebook notebook : notebooks) {
+                for (Notebook notebook : this.notebooks) {
                     if (notebook.getModel() == sValue)
                         filterList.add(notebook);
                 }
                 break;
             case 4:
                 sValue = iScanner.nextLine();
-                for (Notebook notebook : notebooks) {
+                for (Notebook notebook : this.notebooks) {
                     if (notebook.getColour() == sValue)
                         filterList.add(notebook);
                 }
                 break;
             case 6:
                 sValue = iScanner.nextLine();
-                for (Notebook notebook : notebooks) {
+                for (Notebook notebook : this.notebooks) {
                     if (notebook.getCPUType() == sValue)
                         filterList.add(notebook);
                 }
                 break;
             case 7:
                 sValue = iScanner.nextLine();
-                for (Notebook notebook : notebooks) {
+                for (Notebook notebook : this.notebooks) {
                     if (notebook.getDiskType() == sValue)
                         filterList.add(notebook);
                 }
@@ -127,7 +138,6 @@ public class NotebookInfo {
                 for (Notebook notebook : this.notebooks) {
                     if (notebook.getOSType() == sValue)
                         filterList.add(notebook);
-                    System.out.println(notebooks);
                 }
                 break;
             default:
