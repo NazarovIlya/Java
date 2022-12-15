@@ -94,14 +94,15 @@ public class NotebookInfo {
                 }
                 break;
             case 2:
+                System.out.printf("get: %s\n\n", notebooks.get(1).getManufactorer());
                 sValue = iScanner.nextLine();
-                System.out.printf("string value: %s\n\n", sValue);
+                System.out.printf("string value: %s\n\n================", sValue);
+                System.out.println("=======");
                 for (Notebook notebook : this.notebooks) {
-                    System.out.printf("get: %s\n", notebook.getManufactorer());
-
+                    System.out.printf("get: %s\n\n", notebook.getManufactorer());
+                    System.out.println("=======");
                     if (notebook.getManufactorer() == sValue) {
                         filterList.add(notebook);
-                        System.out.println(notebook.getManufactorer());
                     }
                 }
                 break;
