@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class NotebookInfo {
-    static List<Notebook> notebooks;
+    private List<Notebook> notebooks;
 
     public NotebookInfo(List<Notebook> notebooks) {
         this.notebooks = notebooks;
@@ -14,12 +14,13 @@ public class NotebookInfo {
     public NotebookInfo() {
     }
 
-    public static void View() {
+    public List<Notebook> View(List<Notebook> notebooks) {
         int userChoice = OutputView();
-        Filter(userChoice);
+        List<Notebook> resulList = Filter(notebooks, userChoice);
+        return resulList;
     }
 
-    private static int OutputView() {
+    private int OutputView() {
         int choice = 0;
         Scanner iScanner = new Scanner(System.in);
         System.out.println("По какому критерию Вы хотите отобрать ноутбуки?\n"
@@ -39,11 +40,11 @@ public class NotebookInfo {
             choice = iScanner.nextInt();
         else
             System.out.println("Ошибка ввода.");
-        iScanner.close();
+        // iScanner.close();
         return choice;
     }
 
-    private static void Filter(int choice) {
+    private List<Notebook> Filter(List<Notebook> notebooks, int choice) {
         List<Notebook> filterList = new ArrayList<>();
         int value = 0;
         double dValue = 0;
@@ -53,7 +54,7 @@ public class NotebookInfo {
         switch (choice) {
             case 1:
                 value = iScanner.nextInt();
-                for (Notebook notebook : notebooks) {
+                for (Notebook notebook : this.notebooks) {
                     if (notebook.getID() == value)
                         filterList.add(notebook);
                 }
@@ -123,15 +124,17 @@ public class NotebookInfo {
                 break;
             case 11:
                 sValue = iScanner.nextLine();
-                for (Notebook notebook : notebooks) {
+                for (Notebook notebook : this.notebooks) {
                     if (notebook.getOSType() == sValue)
                         filterList.add(notebook);
+                    System.out.println(notebooks);
                 }
                 break;
             default:
                 System.out.println("Ошибка ввода. Нет такого значения.");
                 break;
         }
-        iScanner.close();
+        // iScanner.close();
+        return filterList;
     }
 }

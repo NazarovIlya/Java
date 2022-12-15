@@ -46,7 +46,8 @@ public class Program {
         for (Notebook notebook : notebooks) {
             System.out.println(notebook.getInfo());
             System.out.println();
-            NotebookInfo.View();
         }
+        NotebookInfo notebookList = new NotebookInfo();
+        List<Notebook> filterList = notebookList.View(notebooks);
     }
 }
