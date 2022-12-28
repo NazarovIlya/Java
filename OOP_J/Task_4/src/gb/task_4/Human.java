@@ -1,84 +1,54 @@
 package gb.task_4;
 
-import java.time.Year;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class Human extends LiveBeing {
-    private String name;
-    private int date;
-    private String sex;
-    private Human father;
-    private Human mother;
-    private List<Human> children;
 
     public Human(String name, int date, String sex) {
-        this.name = name;
-        this.date = date;
-        this.sex = sex;
-        this.father = null;
-        this.mother = null;
-        this.children = new ArrayList<>();
+        super(name, date, sex);
     }
 
     public Human(String name) {
-        this.name = name;
-        this.date = generateNowDate();
-        this.sex = getRandomSex();
-        this.father = null;
-        this.mother = null;
-        this.children = new ArrayList<>();
-    }
-
-    @Override
-    public String getName() {
-        return this.name;
-    }
-
-    @Override
-    public int getDate() {
-        return this.generateNowDate();
-    }
-
-    @Override
-    public void setName(String name) {
-        this.name = name;
+        super(name);
     }
 
     @Override
     public List<Human> getChildren() {
-        return this.children;
+        return super.getChildren();
     }
 
     @Override
-    public int compareTo(Object o) {
-        // TODO Auto-generated method stub
-        return 0;
+    public String getName() {
+        return super.getName();
     }
 
     @Override
-    protected int generateNowDate() {
-        // TODO Auto-generated method stub
-        return 0;
+    public void setFather(LiveBeing father) {
+        super.setFather((Human) father);
     }
 
     @Override
-    protected String getRandomSex() {
-        // TODO Auto-generated method stub
-        return null;
+    public void setMother(LiveBeing mother) {
+        super.setMother((Human) mother);
     }
 
     @Override
-    public void setFather(Human father) {
-        this.father = father;
-
+    public void setName(String name) {
+        super.setName(name);
     }
 
     @Override
-    public void setMother(Human mother) {
-        this.mother = mother;
-
+    public int getDate() {
+        return super.getDate();
     }
 
+    @Override
+    public String toString() {
+        return String.format("Вид: Человек разымный\n%s", super.toString());
+    }
+
+    @Override
+    public int compareTo(LiveBeing o) {
+        return super.compareTo((Human) o);
+    }
 }
