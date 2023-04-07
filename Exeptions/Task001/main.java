@@ -29,7 +29,11 @@ public class main {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 System.out.println(array[i].length);
-                sum += array[i][j];
+                if (array[i][j] != 0 || array[i][j] != 1) {
+                    throw RuntimeException("Incorrect value.");
+                } else {
+                    sum += array[i][j];
+                }
             }
         }
         return sum;
