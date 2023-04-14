@@ -8,11 +8,11 @@ public class main {
 
     public static void main(String[] args) {
 
-        int[][] arr = { { 2, 6, 2, 4 }, { 2 }, { 1 } };
+        int[][] arr = { { 0, 1, 1, 0 }, { 1 }, { 1 } };
 
         int length = arr.length;
 
-        System.out.println(sumElArr(arr));
+        System.out.println(sumElemtArray(arr));
     }
 
     public static int sumElemtArray(int[][] array) {
