@@ -30,9 +30,9 @@ public class main {
                 throw new RuntimeException("Array lengths are not equal.");
             }
         } catch (RuntimeException e) {
-            System.out.println(e.getMessage());
+            e.printStackTrace();
         } catch (Exception e) {
-            System.out.println(e.getStackTrace());
+            e.printStackTrace();
         }
 
         return newArray;
