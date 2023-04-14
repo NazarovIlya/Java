@@ -6,18 +6,19 @@
 public class main {
     public static void main(String[] args) {
 
-        int[] arr = new int[] { 3, 7, 0, 3, 0, 3 };
+        Integer[] arr = new Integer[] { 3, null, 0, 6, null, 8 };
 
+        checkArray(arr);
         checkArray(null);
     }
 
-    public static void checkArray(int[] array) {
+    public static void checkArray(Integer[] array) {
         try {
             if (array == null) {
                 throw new IllegalArgumentException("Arrays is null");
             }
             for (int i = 0; i < array.length; i++) {
-                if (array[i] != 0) {
+                if (array[i] != null) {
                     continue;
                 } else {
                     System.out.println("Null found on position " + i);
