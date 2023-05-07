@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf8241fa-325f-4fab-8434-e3e1ceb2d970" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Task012_refactoring/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/src/main/java/MyArrayDataException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/src/main/java/MyArraySizeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/src/main/java/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task013/MyArrayExceptions/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task013/MyArrayExceptions/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task013/MyArrayExceptions/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task013/MyArrayExceptions/MyArrayDataException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task013/MyArrayExceptions/MyArraySizeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task013/MyArrayExceptions/Task013.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task013/MyArrayExceptions/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyArrayDataException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyArraySizeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP_J/Tasks/Task_4" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP_J/Tasks/Task_4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP_J/Tasks/homeWork" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP_J/Tasks/homeWork" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PSYF428w5NpOnLMQQYVUHWaGqH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="Task013_ArrayExeptions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf8241fa-325f-4fab-8434-e3e1ceb2d970" name="Changes" comment="" />
+      <created>1683451845672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683451845672</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
