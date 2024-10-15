@@ -40,7 +40,6 @@ public class Main {
         for(int temp : list){
             average += temp;
         }
-        average = average / list.size();
-        return average;
+        return average / list.size();
     }
 }
