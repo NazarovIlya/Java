@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf8241fa-325f-4fab-8434-e3e1ceb2d970" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Task012_refactoring/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/src/main/java/MyArrayDataException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/src/main/java/MyArraySizeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task013_ArrayExeption/Task013_ArrayExeptions/src/main/java/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task013/MyArrayExceptions/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task013/MyArrayExceptions/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task013/MyArrayExceptions/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task013/MyArrayExceptions/MyArrayDataException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task013/MyArrayExceptions/MyArraySizeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task013/MyArrayExceptions/Task013.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task013/MyArrayExceptions/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyArrayDataException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyArraySizeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP_J/Tasks/Task_4" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP_J/Tasks/Task_4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP_J/Tasks/homeWork" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP_J/Tasks/homeWork" afterDir="false" />
     </list>

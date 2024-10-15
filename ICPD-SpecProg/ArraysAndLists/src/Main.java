@@ -17,12 +17,12 @@ public class Main {
         temperatureList.addAll(Arrays.asList(-2, -5, -2, -4, 3, -6, -2, -1, 5, 1, 1, 0, -1, 0, 3,
                                                 -1, 2, 5, 2, 4, 4, 0, 6, 1, 4, 6, -1, 2, 4, 7, 11));
 
-        System.out.println("Дневник температуры за март:\n" + temperatureList + "\n");
+        System.out.println("Дневнику температуры за март:\n" + temperatureList + "\n");
 
         int res_temp = higherTemperature(temperatureList, temperature);
-        int resAverage = averageTemperature(temperatureList);
+        double resAverage = averageTemperature(temperatureList);
 
-        System.out.println("Солько было дней, когда температура оказалась выше 10 градусов:\n" + res_temp + "\n");
+        System.out.println("Сколько было дней, когда температура оказалась выше 10 градусов:\n" + res_temp + "\n");
         System.out.println("Среднюю температуру за месяц:\n" + resAverage +"\n");
 
     }
@@ -35,12 +35,12 @@ public class Main {
         return countDays;
     }
 
-    public static int averageTemperature(ArrayList<Integer> list){
-        int average = 0;
+    public static double averageTemperature(ArrayList<Integer> list){
+        double average = 0;
         for(int temp : list){
             average += temp;
         }
-        average = average / list.size() - 1;
+        average = average / list.size();
         return average;
     }
 }
