@@ -12,15 +12,14 @@ public class ViewConsole implements IView {
         for (int i = 0; i < commands.size(); i++) {
             System.out.println(String.format("%d --> %s", i, commands.get(i).description()));
         }
-        return menuIndex();
+        return 0;
     }
 
     private int menuIndex(){
         boolean flag = true;
         int index = 0;
         String input = "";
-        Scanner scanner = new Scanner(System.in, "CPP866");
-
+        Scanner scanner = new Scanner(System.in);
 
         return index;
     }
