@@ -35,6 +35,7 @@ public class Presenter {
         service.sortByNameAZ();
         System.out.println(list);
 
+
         ICommand[] commandList = new ICommand[]
                 {
                         new QuiteCommand(),
