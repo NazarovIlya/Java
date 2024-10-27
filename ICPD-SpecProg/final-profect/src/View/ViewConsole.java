@@ -19,8 +19,24 @@ public class ViewConsole implements IView {
         boolean flag = true;
         int index = 0;
         String input = "";
+        String regex = "^[0-1]+$";
         Scanner scanner = new Scanner(System.in);
 
+        while(flag){
+            input = scanner.nextLine();
+            if (!input.isEmpty() && isDigit(input) && input.matches(regex)) {
+                index = Integer.parseInt(input);
+                flag = false;
+            }
+        }
         return index;
+    }
+
+    private boolean isDigit(String line) {
+        char[] c = line.toCharArray();
+        if (Character.isDigit(c[0])) {
+            return true;
+        }
+        return false;
     }
 }
