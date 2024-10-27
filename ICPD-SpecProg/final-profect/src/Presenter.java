@@ -1,15 +1,12 @@
 import Command.ICommand;
-import Comparators.ComparatorByNameAZ;
 import Logic.InputService;
 import Logic.UniversityService;
 import View.IView;
 import View.QuiteCommand;
 import View.ViewConsole;
 import Model.UniversityModel;
-
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 
 public class Presenter {
@@ -44,10 +41,12 @@ public class Presenter {
         service.sortByNameAZ();
         System.out.println(universityList);
 
-
-        while (true) {
-            view.menu(commands);
-            break;
+        int i = 0;
+        while (i < 50000) {
+//            view.menu(commands);
+            inputService.ReadFromTXT();
+            i++;
         }
+        System.out.println("ОТРАБОАЛ...");
     }
 }
