@@ -1,5 +1,6 @@
 import Command.ICommand;
 import Comparators.ComparatorByNameAZ;
+import Logic.InputService;
 import Logic.UniversityService;
 import View.IView;
 import View.QuiteCommand;
@@ -15,7 +16,17 @@ public class Presenter {
 
     public void start(){
 
-        ArrayList<UniversityModel> list = new ArrayList<UniversityModel>();
+        ICommand[] commandList = new ICommand[]
+                {
+                        new QuiteCommand(),
+                        new QuiteCommand(),
+                        new QuiteCommand()
+                };
+        ArrayList<ICommand> commands = new ArrayList<>(Arrays.asList(commandList));
+        IView view = new ViewConsole();
+        InputService inputService = new InputService(".\\resources\\", "data_univer.txt");
+        ArrayList<UniversityModel> universityList = new ArrayList<UniversityModel>();
+        UniversityService service = new UniversityService(universityList);
 
         UniversityModel a = new UniversityModel();
         UniversityModel b = new UniversityModel();
@@ -24,27 +35,15 @@ public class Presenter {
         a.setScores(120, 160);
         b.setName("AAA");
 
-        list.add(a);
-        list.add(b);
-
-        UniversityService service = new UniversityService(list);
+        universityList.add(a);
+        universityList.add(b);
 
 
-        System.out.println(list);
+        System.out.println(universityList);
 //      САМАЯ ПЕРВАЯ СОРТИРОВКА - нужна в любом случае для того, чтобы не вызывать методы лишний раз
         service.sortByNameAZ();
-        System.out.println(list);
+        System.out.println(universityList);
 
-
-        ICommand[] commandList = new ICommand[]
-                {
-                        new QuiteCommand(),
-                        new QuiteCommand(),
-                        new QuiteCommand()
-                };
-
-        IView view = new ViewConsole();
-        ArrayList<ICommand> commands = new ArrayList<>(Arrays.asList(commandList));
 
         while (true) {
             view.menu(commands);
