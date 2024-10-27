@@ -41,10 +41,13 @@ public class Presenter {
         service.sortByNameAZ();
         System.out.println(universityList);
 
+
         int i = 0;
-        while (i < 51000) {
-//            view.menu(commands);
-            inputService.ReadFromTXT();
+        while (true) {
+            ArrayList<UniversityModel> universityModels= inputService.ReadFromTXT();
+            view.menu(commands);
+
+            System.out.println(universityModels);
             i++;
             break;
         }

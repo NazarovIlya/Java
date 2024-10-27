@@ -1,6 +1,8 @@
 package Logic;
 
 import Model.UniversityModel;
+
+import javax.swing.plaf.PanelUI;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -34,7 +36,9 @@ public class InputService implements IReadable{
 
             try {
                 line = scanner.nextLine();
-                university.setName(line);
+                if(isString(line)) {
+                    university.setName(line);
+                } else continue;
             } catch (Exception e){
                 continue;
             }
@@ -118,4 +122,31 @@ public class InputService implements IReadable{
         }
         return  universityModels;
     }
+
+    private boolean isString(String line){
+        char[] c = line.toCharArray();
+            if(!Character.isDigit(c[0])){
+                return true;
+            }
+        return false;
+    }
+
+//    private boolean isIntNumeric(String line) {
+//        try {
+//            Integer.parseInt(line);
+//        } catch (Exception e){
+//            return false;
+//        }
+//        return true;
+//    }
+//
+//    private boolean isFloatNumeric(String line){
+//        try {
+//            Float.parseFloat(line);
+//        } catch (Exception e){
+//            return false;
+//        }
+//        return true;
+//    }
+
 }
