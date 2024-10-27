@@ -50,10 +50,11 @@ public class Presenter {
 
             //  САМАЯ ПЕРВАЯ СОРТИРОВКА - нужна в любом случае для того, чтобы не вызывать методы лишний раз
             service.sortByNameAZ();
-
-            view.menu(commands);
-
             System.out.println(universityModels);
+
+            int index = view.menu(commands);
+            commands.get(index).execute();
+            System.out.println(String.format("! ! ! --> %d", index));
             i++;
             break;
         }

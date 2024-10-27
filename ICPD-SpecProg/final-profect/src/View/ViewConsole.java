@@ -12,17 +12,18 @@ public class ViewConsole implements IView {
         for (int i = 0; i < commands.size(); i++) {
             System.out.println(String.format("%d --> %s", i, commands.get(i).description()));
         }
-        return 0;
+        return menuIndex(commands.size());
     }
 
-    private int menuIndex(){
+    private int menuIndex(int size){
         boolean flag = true;
         int index = 0;
         String input = "";
-        String regex = "^[0-1]+$";
+        String regex = String.format("^[0-%d]$", size);
         Scanner scanner = new Scanner(System.in);
 
         while(flag){
+            System.out.println("Выберите пункт меню из списка:");
             input = scanner.nextLine();
             if (!input.isEmpty() && isDigit(input) && input.matches(regex)) {
                 index = Integer.parseInt(input);
