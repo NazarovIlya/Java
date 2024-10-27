@@ -3,17 +3,33 @@ package Model;
 public class UniversityModel{
     private String name;
     private float placeCountry;
-    private int totalScore;
-    private int estimateCountNobelGraduates;
-    private int estimateCountNobelEmployees;
-    private int rankCitationIndex;
-    private int estimateCountArticlesNatureScience;
-    private int estimateTotalCountArticles;
-    private int weightedAssessment;
+    private float totalScore;
+    private float estimateCountNobelGraduates;
+    private float estimateCountNobelEmployees;
+    private float rankCitationIndex;
+    private float estimateCountArticlesNatureScience;
+    private float estimateTotalCountArticles;
+    private float weightedAssessment;
     private int[] scores;
 
     public UniversityModel() {
         this.scores = new int[]{0, 0};
+    }
+
+    public UniversityModel(String name, float placeCountry, float totalScore, float estimateCountNobelGraduates,
+                           float estimateCountNobelEmployees, float rankCitationIndex, float estimateCountArticlesNatureScience,
+                           float estimateTotalCountArticles, float weightedAssessment, int[] scores)
+    {
+        this.name = name;
+        this.placeCountry = placeCountry;
+        this.totalScore = totalScore;
+        this.estimateCountNobelGraduates = estimateCountNobelGraduates;
+        this.estimateCountNobelEmployees = estimateCountNobelEmployees;
+        this.rankCitationIndex = rankCitationIndex;
+        this.estimateCountArticlesNatureScience = estimateCountArticlesNatureScience;
+        this.estimateTotalCountArticles = estimateTotalCountArticles;
+        this.weightedAssessment = weightedAssessment;
+        this.scores = scores;
     }
 
     public String getName() {
@@ -29,6 +45,62 @@ public class UniversityModel{
     }
     public void setPlaceCountry(float placeCountry) {
         this.placeCountry = placeCountry;
+    }
+
+    public float getTotalScore() {
+        return totalScore;
+    }
+
+    public void setTotalScore(float totalScore) {
+        this.totalScore = totalScore;
+    }
+
+    public float getEstimateCountNobelGraduates() {
+        return estimateCountNobelGraduates;
+    }
+
+    public void setEstimateCountNobelGraduates(float estimateCountNobelGraduates) {
+        this.estimateCountNobelGraduates = estimateCountNobelGraduates;
+    }
+
+    public float getEstimateCountNobelEmployees() {
+        return estimateCountNobelEmployees;
+    }
+
+    public void setEstimateCountNobelEmployees(float estimateCountNobelEmployees) {
+        this.estimateCountNobelEmployees = estimateCountNobelEmployees;
+    }
+
+    public float getRankCitationIndex() {
+        return rankCitationIndex;
+    }
+
+    public void setRankCitationIndex(float rankCitationIndex) {
+        this.rankCitationIndex = rankCitationIndex;
+    }
+
+    public float getEstimateCountArticlesNatureScience() {
+        return estimateCountArticlesNatureScience;
+    }
+
+    public void setEstimateCountArticlesNatureScience(float estimateCountArticlesNatureScience) {
+        this.estimateCountArticlesNatureScience = estimateCountArticlesNatureScience;
+    }
+
+    public float getEstimateTotalCountArticles() {
+        return estimateTotalCountArticles;
+    }
+
+    public void setEstimateTotalCountArticles(float estimateTotalCountArticles) {
+        this.estimateTotalCountArticles = estimateTotalCountArticles;
+    }
+
+    public float getWeightedAssessment() {
+        return weightedAssessment;
+    }
+
+    public void setWeightedAssessment(float weightedAssessment) {
+        this.weightedAssessment = weightedAssessment;
     }
 
     public int[] getScores() {
