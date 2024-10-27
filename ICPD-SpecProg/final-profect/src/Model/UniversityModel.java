@@ -2,7 +2,7 @@ package Model;
 
 public class UniversityModel{
     private String name;
-    private float placeCountry;
+    private int placeCountry;
     private float totalScore;
     private float estimateCountNobelGraduates;
     private float estimateCountNobelEmployees;
@@ -16,7 +16,7 @@ public class UniversityModel{
         this.scores = new int[]{0, 0};
     }
 
-    public UniversityModel(String name, float placeCountry, float totalScore, float estimateCountNobelGraduates,
+    public UniversityModel(String name, int placeCountry, float totalScore, float estimateCountNobelGraduates,
                            float estimateCountNobelEmployees, float rankCitationIndex, float estimateCountArticlesNatureScience,
                            float estimateTotalCountArticles, float weightedAssessment, int[] scores)
     {
@@ -40,10 +40,10 @@ public class UniversityModel{
         this.name = name;
     }
 
-    public float getPlaceCountry(){
+    public int getPlaceCountry(){
         return this.placeCountry;
     }
-    public void setPlaceCountry(float placeCountry) {
+    public void setPlaceCountry(int placeCountry) {
         this.placeCountry = placeCountry;
     }
 
@@ -118,7 +118,7 @@ public class UniversityModel{
 
     @Override
     public String toString() {
-        return String.format("%s\n%.2f\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%s",
+        return String.format("%s\n%d\n%.1f\n%.1f\n%.1f\n%.1f\n%.1f\n%.1f\n%.1f\n%s",
                 name, placeCountry, totalScore, estimateCountNobelGraduates, estimateCountNobelEmployees, rankCitationIndex,
                 estimateCountArticlesNatureScience, estimateTotalCountArticles, weightedAssessment,
                 (scores[1] > 0 ? String.format("%d-%d", scores[0], scores[1]) : scores[0]));

@@ -1,4 +1,9 @@
 package Logic;
+
+import Model.UniversityModel;
+
+import java.util.ArrayList;
+
 public interface IReadable {
-    void ReadFromTXT();
+    ArrayList<UniversityModel> ReadFromTXT();
 }

@@ -42,11 +42,12 @@ public class Presenter {
         System.out.println(universityList);
 
         int i = 0;
-        while (i < 50000) {
+        while (i < 51000) {
 //            view.menu(commands);
             inputService.ReadFromTXT();
             i++;
+            break;
         }
-        System.out.println("ОТРАБОАЛ...");
+        System.out.println("ОТРАБОТАЛ...");
     }
 }
