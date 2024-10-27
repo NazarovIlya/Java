@@ -20,7 +20,7 @@ public class Presenter {
                         new QuiteCommand()
                 };
         ArrayList<ICommand> commands = new ArrayList<>(Arrays.asList(commandList));
-        IView view = new ViewConsole();
+        IView view = new ViewConsole(commands);
         InputService inputService = new InputService(".\\resources\\", "data_univer.txt");
         ArrayList<UniversityModel> universityList = new ArrayList<UniversityModel>();
 //        UniversityService service = new UniversityService(universityList);
@@ -52,7 +52,7 @@ public class Presenter {
             service.sortByNameAZ();
             System.out.println(universityModels);
 
-            int index = view.menu(commands);
+            int index = view.menu();
             commands.get(index).execute();
             System.out.println(String.format("! ! ! --> %d", index));
             i++;

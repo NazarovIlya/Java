@@ -6,13 +6,19 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ViewConsole implements IView {
+    private ArrayList<ICommand> commands;
+
+    public ViewConsole(ArrayList<ICommand> commands) {
+        this.commands = commands;
+    }
 
     @Override
-    public int menu(ArrayList<ICommand> commands) {
-        for (int i = 0; i < commands.size(); i++) {
-            System.out.println(String.format("%d --> %s", i, commands.get(i).description()));
+    public int menu() {
+        int size = this.commands.size();
+        for (int i = 0; i < size; i++) {
+            System.out.println(String.format("%d --> %s", i, this.commands.get(i).description()));
         }
-        return menuIndex(commands.size());
+        return menuIndex(size);
     }
 
     private int menuIndex(int size){
@@ -20,6 +26,7 @@ public class ViewConsole implements IView {
         int index = 0;
         String input = "";
         String regex = String.format("^[0-%d]$", size);
+
         Scanner scanner = new Scanner(System.in);
 
         while(flag){
