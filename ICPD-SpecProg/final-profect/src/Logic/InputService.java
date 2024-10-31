@@ -28,6 +28,7 @@ public class InputService implements IReadable{
 
     @Override
     public ArrayList<UniversityModel> ReadFromTXT() {
+        int i = 0;
         while (scanner.hasNext()) {
             UniversityModel university = new UniversityModel();
             int first = 0;
@@ -118,7 +119,7 @@ public class InputService implements IReadable{
                 continue;
             }
             universityModels.add(university);
-            System.out.println(String.format("!!! %s", university));
+            System.out.println(String.format("University # %d\n%s", ++i, university));
         }
         return  universityModels;
     }

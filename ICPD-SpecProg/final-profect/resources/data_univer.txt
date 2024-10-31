@@ -1,0 +1,4598 @@
+Harvard University
+1
+100.0
+100.0
+100.0
+100.0
+100.0
+100.0
+72.4
+2
+University of Cambridge
+1
+73.6
+99.8
+93.4
+53.3
+56.6
+70.9
+66.9
+3
+Stanford University
+2
+73.4
+41.1
+72.2
+88.5
+70.9
+72.3
+65.0
+4
+University of California, Berkeley
+3
+72.8
+71.8
+76.0
+69.4
+73.9
+72.2
+52.7
+5
+Massachusetts Institute of Technology (MIT)
+4
+70.1
+74.0
+80.6
+66.7
+65.8
+64.3
+53.0
+6
+California Institute of Technology
+5
+67.1
+59.2
+68.6
+59.8
+65.8
+52.5
+100.0
+7
+Columbia University
+6
+62.3
+79.4
+60.6
+56.1
+54.2
+69.5
+45.4
+8
+Princeton University
+7
+60.9
+63.4
+76.8
+60.9
+48.7
+48.5
+59.1
+9
+University of Chicago
+8
+60.1
+75.6
+81.9
+50.3
+44.7
+56.4
+42.2
+10
+University of Oxford
+2
+59.7
+64.3
+59.1
+48.4
+55.6
+68.4
+53.2
+11
+Yale University
+9
+56.9
+52.1
+44.5
+60.3
+57.2
+63.9
+49.3
+12
+Cornell University
+10
+54.6
+46.5
+52.4
+55.0
+48.8
+66.3
+39.8
+13
+University of California, San Diego
+11
+51.0
+17.7
+34.7
+59.8
+56.5
+64.5
+46.6
+14
+University of California, Los Angeles
+12
+50.6
+27.3
+32.8
+56.7
+50.1
+75.6
+34.3
+15
+University of Pennsylvania
+13
+50.2
+35.5
+35.1
+56.7
+42.9
+71.8
+39.1
+16
+University of Wisconsin - Madison
+14
+49.2
+43.0
+36.3
+52.1
+46.3
+68.7
+29.0
+17
+University of Washington
+15
+48.4
+28.8
+32.4
+53.9
+47.1
+73.8
+27.2
+18
+University of California, San Francisco
+16
+47.8
+0.0
+37.6
+55.6
+57.9
+58.8
+45.2
+19
+The Johns Hopkins University
+17
+46.9
+51.4
+28.3
+41.6
+52.2
+67.7
+24.9
+20
+The University of Tokyo
+1
+46.7
+36.0
+14.4
+38.5
+52.1
+86.5
+34.7
+21
+University of Michigan - Ann Arbor
+18
+44.9
+43.0
+0.0
+61.9
+43.0
+76.5
+30.9
+22
+Kyoto University
+2
+43.8
+39.7
+34.1
+34.2
+37.0
+72.3
+31.1
+23
+The Imperial College of Science, Technology and Medicine
+3
+43.7
+20.8
+38.1
+40.8
+38.2
+64.6
+40.3
+24
+University of Toronto
+1
+43.1
+28.1
+19.7
+39.3
+38.9
+76.7
+41.9
+25
+University of Illinois at Urbana-Champaign
+19
+42.8
+41.6
+37.4
+44.4
+34.1
+58.0
+26.0
+26
+University College London
+4
+42.6
+30.7
+32.9
+37.7
+41.5
+60.5
+38.8
+27
+Swiss Federal Institute of Technology Zurich
+1
+41.7
+40.2
+37.0
+35.1
+41.1
+43.4
+52.4
+28
+Washington University in St. Louis
+20
+40.7
+25.1
+26.6
+38.5
+46.5
+53.9
+39.9
+29
+New York University
+21
+38.8
+33.8
+25.0
+43.0
+35.3
+55.4
+26.3
+30
+Rockefeller University
+22
+38.2
+22.6
+59.8
+28.3
+44.1
+24.0
+35.9
+31
+Northwestern University
+23
+37.9
+21.7
+19.3
+44.4
+33.8
+57.6
+36.2
+32
+Duke University
+24
+37.7
+20.8
+0.0
+47.1
+45.3
+60.8
+38.9
+32
+University of Minnesota, Twin Cities
+24
+37.7
+36.0
+0.0
+49.7
+35.2
+68.4
+23.8
+34
+University of California, Santa Barbara
+26
+36.9
+0.0
+36.0
+42.3
+39.0
+44.1
+35.8
+35
+University of Colorado at Boulder
+27
+36.3
+16.6
+29.8
+40.8
+36.6
+46.3
+29.5
+36
+The University of Texas at Austin
+28
+35.5
+21.7
+17.1
+49.1
+30.0
+54.8
+21.7
+37
+University of British Columbia
+2
+35.4
+20.8
+19.3
+32.4
+32.5
+60.4
+33.9
+38
+The University of Texas Southwestern Medical Center at Dallas
+29
+34.8
+24.3
+33.9
+31.4
+38.2
+37.9
+31.0
+39
+Pennsylvania State University - University Park
+30
+33.4
+14.0
+0.0
+45.8
+37.9
+59.9
+24.0
+39
+Vanderbilt University
+30
+33.4
+12.5
+30.2
+34.2
+24.5
+49.2
+35.6
+41
+University of California, Davis
+32
+32.9
+0.0
+0.0
+46.5
+34.5
+64.0
+29.8
+41
+Utrecht University
+1
+32.9
+30.7
+21.4
+27.2
+27.3
+55.7
+25.9
+43
+Rutgers, The State University of New Jersey - New Brunswick
+33
+32.3
+15.4
+20.4
+36.9
+32.9
+47.1
+24.1
+43
+University of Pittsburgh
+33
+32.3
+25.1
+0.0
+40.1
+25.9
+64.3
+28.2
+45
+Karolinska Institute
+1
+32.1
+30.7
+27.8
+33.3
+19.7
+47.3
+25.1
+46
+Pierre and Marie Curie University - Paris 6
+1
+32.0
+35.7
+23.9
+23.6
+24.2
+51.2
+30.0
+47
+The University of Edinburgh
+5
+31.8
+22.6
+17.1
+26.1
+35.8
+49.4
+29.9
+47
+University of California, Irvine
+35
+31.8
+0.0
+30.0
+32.4
+28.5
+48.2
+31.1
+47
+University of Maryland, College Park
+35
+31.8
+25.9
+0.0
+40.8
+33.6
+54.6
+25.6
+50
+University of Southern California
+37
+31.7
+0.0
+27.3
+37.7
+23.6
+52.8
+25.8
+51
+University of Munich
+1
+31.4
+37.1
+21.1
+15.7
+30.4
+51.9
+30.0
+52
+Technical University Munich
+2
+31.3
+43.0
+24.1
+24.8
+20.7
+46.5
+29.2
+53
+The University of Manchester
+6
+31.2
+27.3
+19.3
+23.6
+22.6
+57.3
+30.4
+54
+Carnegie Mellon University
+38
+30.8
+30.7
+33.5
+32.4
+14.7
+38.3
+31.4
+55
+University of North Carolina at Chapel Hill
+39
+30.3
+12.5
+0.0
+35.1
+32.8
+59.5
+27.3
+56
+The Australian National University
+1
+30.2
+17.7
+12.9
+36.9
+29.0
+45.1
+27.8
+57
+University of Copenhagen
+1
+30.0
+30.7
+24.7
+23.6
+22.8
+45.7
+27.7
+57
+University of Florida
+40
+30.0
+15.4
+0.0
+35.1
+25.0
+65.2
+25.8
+57
+University of Zurich
+2
+30.0
+12.5
+27.3
+19.2
+30.3
+47.2
+30.6
+60
+Uppsala University
+2
+29.9
+25.9
+32.9
+11.1
+28.7
+49.1
+21.6
+61
+University of Paris Sud (Paris 11)
+2
+29.4
+33.2
+34.2
+13.6
+19.6
+44.9
+27.9
+62
+Osaka University
+3
+29.3
+12.5
+0.0
+23.6
+31.1
+66.8
+29.2
+63
+The Ohio State University - Columbus
+41
+29.2
+17.7
+0.0
+40.8
+21.5
+61.2
+19.5
+64
+University of Bristol
+7
+28.8
+10.9
+18.2
+30.4
+24.5
+47.5
+27.4
+65
+The University of Sheffield
+8
+28.6
+23.5
+14.4
+23.6
+29.2
+46.6
+27.1
+65
+University of Rochester
+42
+28.6
+33.2
+9.1
+27.2
+25.3
+43.0
+36.1
+67
+McGill University
+3
+28.4
+28.8
+0.0
+28.3
+23.6
+56.8
+30.0
+67
+Moscow State University
+1
+28.4
+51.4
+34.9
+0.0
+7.5
+54.0
+31.6
+69
+Case Western Reserve University
+43
+28.3
+40.7
+11.8
+20.8
+23.0
+44.8
+33.7
+69
+University of Oslo
+1
+28.3
+25.9
+34.1
+17.6
+18.2
+41.5
+26.4
+71
+University of Heidelberg
+3
+28.0
+10.9
+27.7
+20.8
+20.9
+48.1
+26.9
+72
+Leiden University
+2
+27.9
+25.1
+15.8
+27.2
+19.3
+46.7
+28.1
+73
+Tohoku University
+4
+27.8
+18.8
+0.0
+19.2
+26.9
+65.3
+29.0
+73
+University of Arizona
+44
+27.8
+0.0
+0.0
+29.4
+36.8
+55.8
+25.7
+75
+Purdue University - West Lafayette
+45
+27.7
+18.8
+17.1
+27.2
+21.4
+49.8
+19.4
+76
+University of Helsinki
+1
+27.4
+18.8
+18.2
+15.7
+21.4
+54.5
+27.5
+77
+Michigan State University
+46
+26.9
+12.5
+0.0
+37.7
+26.6
+51.0
+18.7
+78
+Rice University
+47
+26.2
+21.7
+22.3
+23.6
+24.4
+30.8
+31.0
+78
+The Hebrew University of Jerusalem
+1
+26.2
+33.2
+0.0
+23.6
+27.1
+46.6
+26.9
+80
+Boston University
+48
+26.1
+15.4
+0.0
+31.4
+28.1
+50.8
+17.5
+80
+King's College London
+9
+26.1
+16.6
+23.5
+20.8
+17.4
+44.6
+24.8
+82
+University of Melbourne
+2
+26.0
+15.4
+14.4
+22.2
+18.7
+53.5
+19.9
+83
+University of Nottingham
+10
+25.9
+15.4
+20.4
+20.8
+19.0
+45.6
+24.8
+84
+University of Goettingen
+4
+25.8
+38.7
+20.4
+15.7
+17.5
+40.2
+24.5
+85
+University of Vienna
+1
+25.6
+25.1
+15.8
+7.9
+22.7
+52.2
+26.4
+86
+Brown University
+49
+25.4
+0.0
+13.9
+29.4
+25.5
+40.7
+27.9
+87
+Indiana University Bloomington
+50
+25.2
+14.0
+18.2
+24.8
+21.2
+42.0
+18.2
+87
+University of Basel
+3
+25.2
+25.9
+17.5
+19.2
+21.4
+34.5
+33.8
+89
+Texas A&M University - College Station
+51
+25.1
+0.0
+0.0
+32.4
+24.4
+55.0
+20.4
+90
+McMaster University
+4
+24.9
+16.6
+19.3
+22.2
+15.9
+43.5
+23.9
+90
+University of Freiburg
+5
+24.9
+25.1
+21.4
+17.6
+18.2
+39.5
+23.2
+92
+University of Strasbourg
+3
+24.7
+29.4
+22.9
+19.2
+19.5
+32.7
+22.4
+93
+Ecole Normale Superieure - Paris
+4
+24.6
+47.8
+25.0
+13.6
+18.1
+27.2
+23.3
+93
+Stockholm University
+3
+24.6
+29.4
+30.2
+15.7
+14.3
+35.3
+18.9
+93
+Tokyo Institute of Technology
+5
+24.6
+16.6
+0.0
+22.2
+22.5
+50.6
+31.5
+93
+University of Utah
+52
+24.6
+0.0
+0.0
+30.4
+31.4
+45.5
+24.8
+97
+University of Roma - La Sapienza
+1
+24.5
+16.6
+15.8
+11.1
+21.8
+54.6
+15.1
+98
+University of Birmingham
+11
+24.4
+25.1
+11.2
+22.2
+13.4
+47.0
+24.5
+99
+Lund University
+4
+24.3
+29.4
+0.0
+24.8
+19.4
+50.1
+18.1
+100
+Tufts University
+53
+23.9
+18.8
+17.1
+20.8
+19.1
+37.4
+25.2
+101-152
+Aarhus University
+2
+15.4
+19.3
+7.9
+22.3
+41.6
+22.4
+101-152
+Arizona State University - Tempe
+54
+0.0
+14.4
+20.8
+26.3
+41.9
+17.5
+101-152
+Baylor College of Medicine
+54
+0.0
+0.0
+17.6
+34.5
+44.0
+24.9
+101-152
+Catholic University of Leuven
+1
+0.0
+0.0
+19.2
+16.0
+48.7
+23.1
+101-152
+Catholic University of Louvain
+1
+14.0
+13.9
+13.6
+8.3
+44.7
+26.9
+101-152
+College of France
+5
+15.4
+37.4
+11.1
+11.7
+16.9
+19.3
+101-152
+Dartmouth College
+54
+24.3
+0.0
+20.8
+22.0
+33.0
+29.1
+101-152
+Emory University
+54
+0.0
+0.0
+28.3
+19.0
+48.4
+21.6
+101-152
+Georgia Institute of Technology
+54
+16.6
+0.0
+23.6
+19.0
+43.9
+25.8
+101-152
+Ghent University
+1
+8.9
+15.8
+15.7
+9.1
+48.8
+27.2
+101-152
+Hokkaido University
+6
+0.0
+0.0
+15.7
+14.1
+53.8
+21.5
+101-152
+Kyushu University
+6
+0.0
+0.0
+13.6
+21.3
+52.8
+21.6
+101-152
+Mayo Medical School
+54
+0.0
+0.0
+27.2
+6.2
+50.2
+24.4
+101-152
+Nagoya University
+6
+0.0
+14.4
+15.7
+20.5
+52.3
+25.1
+101-152
+National University of Singapore
+1
+0.0
+0.0
+15.7
+13.8
+56.7
+25.7
+101-152
+North Carolina State University - Raleigh
+54
+0.0
+0.0
+29.4
+17.8
+44.3
+19.0
+101-152
+Oregon State University
+54
+15.4
+0.0
+24.8
+25.7
+36.6
+27.1
+101-152
+Seoul National University
+1
+0.0
+0.0
+7.9
+14.6
+61.2
+26.9
+101-152
+State University of New York at Stony Brook
+54
+0.0
+0.0
+17.6
+31.4
+40.7
+20.5
+101-152
+Technion-Israel Institute of Technology
+2
+18.8
+23.5
+13.6
+14.1
+42.1
+22.8
+101-152
+Tel Aviv University
+2
+0.0
+0.0
+24.8
+20.1
+54.7
+26.9
+101-152
+The University of Georgia
+54
+0.0
+0.0
+28.3
+21.1
+46.4
+18.4
+101-152
+The University of Glasgow
+12
+10.9
+0.0
+19.2
+17.1
+44.4
+22.1
+101-152
+The University of Queensland
+3
+16.6
+0.0
+7.9
+19.9
+50.1
+18.9
+101-152
+University Libre Bruxelles
+1
+28.1
+19.3
+0.0
+12.8
+37.8
+29.1
+101-152
+University of Alberta
+5
+15.4
+0.0
+17.6
+17.4
+55.1
+26.1
+101-152
+University of Amsterdam
+3
+8.9
+0.0
+19.2
+22.2
+50.1
+23.1
+101-152
+University of Bonn
+6
+19.8
+20.4
+15.7
+11.3
+41.3
+22.0
+101-152
+University of California, Riverside
+54
+0.0
+0.0
+28.3
+25.9
+36.5
+27.0
+101-152
+University of California, Santa Cruz
+54
+0.0
+0.0
+28.3
+28.5
+31.1
+29.2
+101-152
+University of Frankfurt
+6
+36.6
+9.1
+17.6
+16.5
+37.9
+22.4
+101-152
+University of Geneva
+4
+29.4
+0.0
+19.2
+23.8
+33.7
+23.1
+101-152
+University of Groningen
+3
+0.0
+20.4
+13.6
+18.5
+43.2
+19.8
+101-152
+University of Hamburg
+6
+16.6
+0.0
+17.6
+20.7
+40.9
+21.4
+101-152
+University of Hawaii at Manoa
+54
+0.0
+0.0
+27.2
+30.1
+36.8
+22.2
+101-152
+University of Illinois at Chicago
+54
+0.0
+0.0
+28.3
+18.5
+46.9
+21.5
+101-152
+University of Iowa
+54
+0.0
+0.0
+31.4
+22.7
+50.8
+20.9
+101-152
+University of Leeds
+12
+22.6
+0.0
+11.1
+22.9
+45.0
+23.0
+101-152
+University of Liverpool
+12
+23.5
+15.8
+13.6
+18.1
+42.4
+22.6
+101-152
+University of Massachusetts Amherst
+54
+17.7
+0.0
+33.3
+24.3
+38.0
+23.0
+101-152
+University of Miami
+54
+0.0
+0.0
+26.1
+16.4
+41.7
+23.4
+101-152
+University of Milan
+2
+22.6
+0.0
+15.7
+14.2
+49.7
+19.1
+101-152
+University of Muenster
+6
+25.1
+15.8
+11.1
+14.8
+38.3
+20.7
+101-152
+University of Pisa
+2
+18.8
+24.1
+11.1
+8.7
+40.6
+18.4
+101-152
+University of Sao Paulo
+1
+0.0
+0.0
+11.1
+11.0
+63.5
+27.8
+101-152
+University of Sussex
+12
+0.0
+23.2
+19.2
+15.9
+28.8
+19.0
+101-152
+University of Sydney
+3
+19.8
+0.0
+19.2
+17.8
+54.5
+19.7
+101-152
+University of Tsukuba
+6
+0.0
+20.4
+13.6
+12.7
+42.9
+21.3
+101-152
+University of Tuebingen
+6
+29.4
+0.0
+15.7
+22.4
+43.7
+23.6
+101-152
+University of Virginia
+54
+0.0
+0.0
+29.4
+23.6
+47.9
+24.0
+101-152
+University of Wuerzburg
+6
+25.1
+9.1
+22.2
+16.9
+37.9
+21.7
+101-152
+Weizmann Institute of Science
+2
+0.0
+0.0
+26.1
+35.1
+33.6
+23.4
+153-202
+Autonomous University of Madrid
+1
+19.8
+0.0
+13.6
+11.4
+36.3
+18.2
+153-202
+Brandeis University
+72
+25.1
+0.0
+7.9
+26.1
+20.3
+27.4
+153-202
+Cardiff University
+16
+0.0
+0.0
+13.6
+17.0
+42.5
+20.3
+153-202
+Colorado State University
+72
+0.0
+0.0
+27.2
+14.8
+37.6
+21.7
+153-202
+Erasmus University
+5
+0.0
+15.8
+15.7
+11.0
+29.8
+17.0
+153-202
+Florida State University
+72
+0.0
+0.0
+22.2
+17.1
+37.9
+18.4
+153-202
+Iowa State University
+72
+0.0
+0.0
+24.8
+11.5
+45.0
+18.4
+153-202
+Joseph Fourier University (Grenoble 1)
+6
+0.0
+15.8
+11.1
+14.4
+32.5
+17.2
+153-202
+Mount Sinai School of Medicine
+72-90
+0.0
+0.0
+19.2
+18.3
+34.0
+18.3
+153-202
+National Autonomous University of Mexico
+1
+16.6
+0.0
+7.9
+15.1
+49.0
+22.6
+153-202
+National Taiwan University
+1
+15.4
+0.0
+7.9
+7.3
+53.2
+15.8
+153-202
+Oregon Health and Science University
+72
+0.0
+0.0
+17.6
+23.9
+35.2
+19.6
+153-202
+Queen's University
+6
+0.0
+0.0
+19.2
+17.0
+35.2
+18.5
+153-202
+Rensselaer Polytechnic Institute
+72
+16.6
+0.0
+19.2
+12.2
+26.8
+24.7
+153-202
+Swiss Federal Institute of Technology of Lausanne
+5
+0.0
+0.0
+17.6
+18.1
+38.7
+38.7
+153-202
+Technical University of Denmark
+3
+8.9
+12.9
+17.6
+11.8
+30.6
+16.9
+153-202
+The University of Alabama at Birmingham
+72
+0.0
+0.0
+17.6
+14.2
+43.5
+23.2
+153-202
+The University of Calgary
+6
+0.0
+0.0
+11.1
+16.0
+44.2
+20.5
+153-202
+The University of Connecticut - Storrs
+72
+15.4
+0.0
+17.6
+12.0
+37.8
+19.6
+153-202
+The University of Texas Health Science Center at Houston
+72
+0.0
+15.8
+17.6
+16.8
+29.7
+17.6
+153-202
+The University of Texas M. D. Anderson Cancer Center
+72
+0.0
+0.0
+23.6
+12.4
+39.5
+20.2
+153-202
+The University of Western Australia
+5
+0.0
+0.0
+20.8
+13.8
+40.1
+21.0
+153-202
+Tsinghua University
+1
+14.0
+0.0
+0.0
+9.9
+55.7
+19.1
+153-202
+University of Barcelona
+1
+0.0
+0.0
+11.1
+14.1
+46.3
+21.1
+153-202
+University of Bern
+5
+16.6
+0.0
+11.1
+23.5
+35.5
+26.8
+153-202
+University of Cincinnati
+72
+0.0
+0.0
+24.8
+12.1
+44.8
+20.6
+153-202
+University of Delaware
+72
+14.0
+0.0
+20.8
+15.9
+36.2
+17.9
+153-202
+University of East Anglia
+16
+17.7
+0.0
+17.6
+20.2
+25.1
+16.5
+153-202
+University of Gothenburg
+5
+0.0
+15.8
+0.0
+18.6
+40.4
+13.9
+153-202
+University of Kiel
+12
+15.4
+15.8
+11.1
+14.6
+33.5
+18.2
+153-202
+University of Koeln
+12
+0.0
+12.9
+7.9
+19.1
+36.6
+18.7
+153-202
+University of Leicester
+16
+0.0
+0.0
+19.2
+19.9
+35.4
+19.1
+153-202
+University of Leipzig
+12
+17.7
+15.8
+0.0
+10.0
+37.3
+18.5
+153-202
+University of Mainz
+12
+0.0
+8.3
+15.7
+13.5
+37.9
+18.7
+153-202
+University of Marburg
+12
+17.7
+0.0
+15.7
+12.6
+34.7
+17.9
+153-202
+University of Maryland, Baltimore
+72-90
+0.0
+0.0
+19.2
+18.6
+38.4
+19.9
+153-202
+University of Montreal
+6
+15.4
+0.0
+7.9
+12.1
+50.4
+22.7
+153-202
+University of Nebraska - Lincoln
+72
+17.7
+0.0
+15.7
+17.2
+36.8
+18.2
+153-202
+University of New South Wales
+5
+0.0
+0.0
+19.2
+14.3
+47.0
+17.6
+153-202
+University of Notre Dame
+72
+16.6
+0.0
+11.1
+18.9
+34.1
+20.0
+153-202
+University of Padua
+4
+0.0
+0.0
+13.6
+13.7
+46.3
+16.9
+153-202
+University of Paris Descartes (Paris 5)
+6
+16.0
+12.2
+11.1
+12.4
+27.8
+15.5
+153-202
+University of Paris Diderot (Paris 7)
+6
+18.2
+14.1
+11.1
+15.6
+34.5
+18.6
+153-202
+University of Southampton
+16
+0.0
+0.0
+20.8
+11.9
+43.4
+21.0
+153-202
+University of Tennessee - Knoxville
+72
+14.0
+0.0
+20.8
+18.0
+39.3
+17.1
+153-202
+University of Turin
+4
+21.7
+0.0
+11.1
+10.8
+38.2
+16.8
+153-202
+University of Wageningen
+5
+0.0
+0.0
+23.6
+17.0
+35.2
+23.8
+153-202
+Virginia Commonwealth University
+72
+14.0
+14.4
+20.8
+7.7
+33.4
+17.4
+153-202
+Virginia Polytechnic Institute and State University
+72
+15.4
+0.0
+17.6
+12.4
+40.3
+17.0
+153-202
+VU University Amsterdam
+5
+0.0
+0.0
+17.6
+15.8
+42.7
+21.6
+203-300
+Chalmers University of Technology
+6
+0.0
+0.0
+17.6
+9.8
+31.0
+18.1
+203-300
+Charles University in Prague
+1
+15.4
+0.0
+0.0
+11.3
+37.1
+17.1
+203-300
+Claude Bernard University Lyon 1
+9
+15.4
+0.0
+0.0
+11.5
+36.5
+16.9
+203-300
+Complutense University of Madrid
+3
+0.0
+0.0
+0.0
+12.6
+41.3
+18.3
+203-300
+Dalhousie University
+9
+0.0
+0.0
+15.7
+18.1
+34.8
+18.0
+203-300
+Delft University of Technology
+8
+15.4
+0.0
+0.0
+21.9
+36.2
+15.8
+203-300
+Ecole Polytechnique
+9
+22.6
+0.0
+7.9
+14.1
+28.4
+15.4
+203-300
+George Mason University
+91
+0.0
+32.9
+11.1
+0.0
+24.3
+18.3
+203-300
+Georgetown University
+91
+0.0
+0.0
+7.9
+13.5
+34.8
+19.7
+203-300
+Hiroshima University
+10
+0.0
+0.0
+7.9
+10.4
+40.6
+19.2
+203-300
+Kansas State University
+91
+0.0
+0.0
+11.1
+12.7
+31.8
+15.8
+203-300
+Keio University
+10
+0.0
+0.0
+7.9
+14.2
+36.5
+17.0
+203-300
+Kobe University
+10
+0.0
+0.0
+13.6
+15.0
+33.1
+16.9
+203-300
+Lancaster University
+20
+0.0
+0.0
+17.6
+10.2
+28.4
+14.8
+203-300
+Laval University
+9
+0.0
+0.0
+15.7
+11.4
+37.2
+17.8
+203-300
+London School of Economics and Political Science
+20
+19.8
+0.0
+15.7
+26.1
+16.2
+203-300
+Louisiana State University - Baton Rouge
+91
+0.0
+0.0
+13.6
+11.8
+39.0
+15.6
+203-300
+Macquarie University
+7
+0.0
+0.0
+13.6
+15.9
+25.6
+17.9
+203-300
+Monash University
+7
+0.0
+0.0
+7.9
+15.4
+44.6
+14.7
+203-300
+National and Kapodistrian University of Athens
+1
+0.0
+0.0
+7.9
+5.9
+40.1
+17.5
+203-300
+Newcastle University
+20
+0.0
+0.0
+11.1
+20.1
+37.8
+18.8
+203-300
+Norwegian University of Science and Technology
+2
+18.8
+0.0
+0.0
+15.7
+30.5
+15.6
+203-300
+Okayama University
+10
+0.0
+0.0
+7.9
+10.4
+36.0
+18.3
+203-300
+Paul Sabatier University (Toulouse 3)
+9
+0.0
+6.4
+7.9
+16.9
+33.8
+16.6
+203-300
+Peking University
+2
+0.0
+0.0
+0.0
+11.3
+52.2
+17.2
+203-300
+Queen Mary, U. of London
+20
+24.3
+0.0
+15.7
+7.4
+30.2
+16.5
+203-300
+Queen's University Belfast
+20
+23.5
+0.0
+0.0
+10.8
+33.5
+16.5
+203-300
+Radboud University Nijmegen
+8
+0.0
+0.0
+7.9
+18.8
+40.1
+19.9
+203-300
+Royal Institute of Technology
+6
+0.0
+15.8
+7.9
+10.9
+35.1
+17.1
+203-300
+RWTH Aachen University
+17
+6.3
+0.0
+7.9
+7.4
+39.0
+17.3
+203-300
+State University of Campinas
+2
+0.0
+0.0
+7.9
+6.2
+40.6
+17.8
+203-300
+State University of New York at Albany
+91
+0.0
+0.0
+22.2
+9.8
+29.1
+20.0
+203-300
+State University of New York at Buffalo
+91
+0.0
+0.0
+15.7
+11.5
+39.1
+16.1
+203-300
+Swedish University of Agricultural Sciences
+6
+0.0
+0.0
+13.6
+17.0
+29.9
+14.8
+203-300
+Syracuse University
+91
+0.0
+0.0
+15.7
+14.1
+26.8
+15.2
+203-300
+Technical University of Berlin
+17
+23.5
+0.0
+11.1
+8.9
+29.7
+15.7
+203-300
+The Chinese University of Hong Kong
+1
+0.0
+0.0
+13.6
+5.1
+43.3
+21.6
+203-300
+The George Washington University
+91
+15.4
+0.0
+11.1
+12.6
+32.9
+17.6
+203-300
+The Hong Kong University of Science and Technology
+1
+0.0
+0.0
+17.6
+10.1
+34.5
+24.6
+203-300
+The University of Adelaide
+7
+10.9
+0.0
+11.1
+12.0
+35.2
+19.0
+203-300
+The University of Auckland
+1
+17.7
+0.0
+11.1
+16.3
+33.9
+17.5
+203-300
+The University of Dundee
+20
+0.0
+0.0
+13.6
+15.1
+28.0
+14.7
+203-300
+The University of Hong Kong
+1
+0.0
+0.0
+7.9
+10.9
+46.3
+21.3
+203-300
+The University of New Mexico - Albuquerque
+91
+0.0
+0.0
+11.1
+19.6
+36.3
+18.9
+203-300
+The University of Reading
+20
+0.0
+0.0
+13.6
+17.9
+31.0
+16.3
+203-300
+The University of Texas Health Science Center at San Antonio
+91
+0.0
+0.0
+22.2
+9.8
+27.7
+15.7
+203-300
+The University of Texas Medical Branch at Galveston
+91
+0.0
+0.0
+19.2
+8.5
+30.5
+15.7
+203-300
+Thomas Jefferson University
+91
+0.0
+0.0
+15.7
+14.5
+29.3
+15.4
+203-300
+Trinity College Dublin
+1
+15.4
+14.4
+0.0
+11.9
+27.4
+14.8
+203-300
+Tulane University
+91
+0.0
+0.0
+15.7
+11.4
+30.3
+14.5
+203-300
+Umea University
+6
+0.0
+0.0
+15.7
+17.1
+31.3
+13.6
+203-300
+University of Alaska - Fairbanks
+91
+0.0
+0.0
+15.7
+17.9
+19.5
+23.1
+203-300
+University of Antwerp
+5
+0.0
+0.0
+11.1
+11.3
+33.6
+24.3
+203-300
+University of Bochum
+17
+0.0
+0.0
+11.1
+15.0
+39.3
+18.5
+203-300
+University of Bologna
+6
+0.0
+0.0
+7.9
+10.6
+48.9
+15.5
+203-300
+University of Bordeaux 1
+9
+8.9
+0.0
+13.6
+11.4
+27.0
+14.0
+203-300
+University of Buenos Aires
+1
+21.7
+0.0
+0.0
+9.0
+36.6
+17.3
+203-300
+University of Cape Town
+1
+25.1
+0.0
+11.1
+11.1
+30.3
+16.3
+203-300
+University of Colorado Health Science Center
+91
+0.0
+0.0
+15.7
+17.1
+34.0
+17.5
+203-300
+University of Durham
+20
+0.0
+0.0
+19.2
+15.7
+33.7
+17.8
+203-300
+University of Erlangen-Nuremberg
+17
+0.0
+0.0
+13.6
+9.8
+41.1
+18.9
+203-300
+University of Florence
+6
+0.0
+0.0
+13.6
+16.4
+40.4
+15.8
+203-300
+University of Genova
+6
+0.0
+0.0
+15.7
+5.4
+34.4
+14.2
+203-300
+University of Guelph
+9
+0.0
+0.0
+13.6
+11.0
+32.9
+15.8
+203-300
+University of Halle-Wittenberg
+17
+6.3
+9.1
+7.9
+8.1
+29.8
+14.2
+203-300
+University of Houston
+91
+0.0
+0.0
+22.2
+8.1
+33.9
+16.7
+203-300
+University of Innsbruck
+2
+0.0
+11.2
+7.9
+19.2
+29.8
+16.1
+203-300
+University of Kansas - Lawrence
+91
+15.4
+0.0
+7.9
+15.3
+32.3
+14.4
+203-300
+University of Karlsruhe
+17
+6.3
+0.0
+11.1
+13.9
+33.0
+16.0
+203-300
+University of Kentucky
+91
+14.0
+0.0
+7.9
+9.6
+43.5
+17.4
+203-300
+University of Liege
+5
+10.9
+0.0
+7.9
+10.7
+30.3
+23.2
+203-300
+University of Manitoba
+9
+0.0
+0.0
+17.6
+7.1
+33.9
+16.5
+203-300
+University of Massachusetts Medical School - Worcester
+91
+0.0
+0.0
+13.6
+24.4
+28.2
+16.9
+203-300
+University of Medicine and Dentistry New Jersey
+91
+0.0
+0.0
+22.2
+10.1
+33.6
+17.6
+203-300
+University of Missouri - Columbia
+91
+12.5
+0.0
+7.9
+13.1
+41.8
+14.5
+203-300
+University of Montpellier 2
+9
+14.0
+0.0
+13.6
+16.9
+31.2
+16.7
+203-300
+University of Naples Federico II
+6
+0.0
+0.0
+7.9
+9.1
+42.1
+12.4
+203-300
+University of Oregon
+91
+14.0
+0.0
+11.1
+23.1
+28.5
+18.3
+203-300
+University of Ottawa
+9
+0.0
+0.0
+7.9
+12.5
+37.6
+17.2
+203-300
+University of Saskatchewan
+9
+12.5
+0.0
+17.6
+6.2
+32.9
+16.5
+203-300
+University of South Carolina - Columbia
+91
+0.0
+0.0
+13.6
+16.0
+35.9
+17.0
+203-300
+University of South Florida
+91
+0.0
+0.0
+15.7
+9.9
+36.6
+13.7
+203-300
+University of Southern Denmark
+4
+0.0
+0.0
+15.7
+13.5
+28.9
+15.1
+203-300
+University of St Andrews
+20
+14.0
+0.0
+7.9
+22.0
+30.8
+17.0
+203-300
+University of Stuttgart
+17
+17.7
+0.0
+7.9
+8.6
+30.1
+14.6
+203-300
+University of Szeged
+1
+0.0
+15.8
+7.9
+8.7
+24.7
+13.4
+203-300
+University of Turku
+2
+0.0
+0.0
+11.1
+12.7
+33.6
+16.0
+203-300
+University of Vermont
+91
+17.7
+0.0
+15.7
+11.2
+28.6
+20.5
+203-300
+University of Victoria
+9
+0.0
+0.0
+13.6
+12.3
+30.1
+15.0
+203-300
+University of Warwick
+20
+0.0
+0.0
+11.1
+14.1
+33.9
+16.3
+203-300
+University of Waterloo
+9
+0.0
+0.0
+19.2
+11.4
+38.7
+19.0
+203-300
+University of York
+20
+0.0
+0.0
+11.1
+15.4
+33.6
+16.4
+203-300
+Wake Forest University
+91
+0.0
+0.0
+11.1
+10.9
+33.4
+23.2
+203-300
+Washington State University - Pullman
+91
+0.0
+0.0
+20.8
+15.5
+33.6
+16.9
+203-300
+Wayne State University
+91
+0.0
+0.0
+7.9
+9.6
+39.9
+17.7
+203-300
+Western University
+9
+0.0
+0.0
+7.9
+17.1
+42.2
+19.6
+203-300
+Yeshiva University
+91
+0.0
+0.0
+11.1
+22.0
+34.5
+20.5
+203-300
+Yonsei University
+2
+0.0
+0.0
+7.9
+9.7
+43.9
+19.4
+301-400
+Aristotle University of Thessaloniki
+2
+0.0
+0.0
+7.9
+2.0
+34.9
+15.2
+301-400
+Auburn University
+120
+0.0
+0.0
+7.9
+5.2
+29.7
+12.0
+301-400
+Bar-Ilan University
+5
+0.0
+0.0
+11.1
+9.2
+28.2
+13.4
+301-400
+Ben-Gurion University of the Negev
+5
+0.0
+0.0
+0.0
+10.1
+37.5
+16.5
+301-400
+Brigham Young University
+120
+12.5
+0.0
+11.1
+2.9
+28.0
+10.3
+301-400
+Carleton University
+18
+0.0
+0.0
+13.6
+7.0
+26.9
+13.1
+301-400
+Chiba University
+14
+0.0
+0.0
+0.0
+7.7
+35.4
+17.2
+301-400
+City University of Hong Kong
+4
+0.0
+0.0
+0.0
+9.9
+36.9
+18.9
+301-400
+City University of New York City College
+120
+37.1
+0.0
+11.1
+5.5
+17.6
+14.4
+301-400
+Clemson University
+120
+0.0
+0.0
+13.6
+9.4
+28.2
+13.8
+301-400
+Technical University Darmstadt
+24
+10.9
+0.0
+7.9
+9.4
+25.7
+12.5
+301-400
+Dresden University of Technology
+24
+0.0
+0.0
+7.9
+6.6
+33.9
+15.1
+301-400
+Ecole National Superieure Mines - Paris
+14
+18.8
+25.8
+0.0
+0.0
+10.1
+13.0
+301-400
+Ecole Normale Superieure - Lyon
+14
+0.0
+0.0
+7.9
+14.1
+21.7
+11.5
+301-400
+Eindhoven University of Technology
+10
+0.0
+0.0
+0.0
+11.4
+32.5
+16.7
+301-400
+Eotvos Lorand University
+2
+19.8
+0.0
+0.0
+12.8
+24.3
+13.1
+301-400
+Federal University of Rio de Janeiro
+3
+0.0
+0.0
+0.0
+8.2
+38.6
+16.8
+301-400
+Fudan University
+3
+0.0
+0.0
+0.0
+9.1
+38.0
+15.2
+301-400
+Gunma University
+14
+0.0
+0.0
+7.9
+8.8
+24.4
+17.7
+301-400
+Henri Poincare University (Nancy 1)
+14
+15.4
+19.3
+0.0
+2.5
+24.0
+13.9
+301-400
+Indian Institute of Science
+1
+0.0
+0.0
+11.1
+9.8
+31.9
+14.9
+301-400
+Indiana University-Purdue University at Indianapolis
+120
+0.0
+0.0
+0.0
+9.4
+38.2
+11.7
+301-400
+Industrial Physics and Chemistry Higher Educational Institution - Paris
+14
+10.9
+19.3
+0.0
+7.6
+16.8
+11.8
+301-400
+International School for Advanced Studies
+10
+0.0
+0.0
+0.0
+12.2
+18.8
+42.7
+301-400
+Jagiellonian University
+1
+0.0
+0.0
+7.9
+4.3
+31.8
+14.1
+301-400
+Kanazawa University
+14
+0.0
+0.0
+11.1
+6.5
+29.1
+17.5
+301-400
+Korea Advanced Institute of Science and Technology
+3
+0.0
+0.0
+0.0
+7.7
+39.5
+17.1
+301-400
+Linkoping University
+10
+0.0
+0.0
+7.9
+6.8
+31.6
+12.5
+301-400
+London School of Hygiene and Tropical Medicine
+31
+10.9
+0.0
+0.0
+14.1
+27.1
+13.4
+301-400
+Medical College of Wisconsin
+120
+0.0
+0.0
+7.9
+8.0
+28.7
+13.1
+301-400
+Medical University of South Carolina
+120
+0.0
+0.0
+15.7
+2.5
+30.3
+14.5
+301-400
+Nagasaki University
+14
+0.0
+0.0
+11.1
+1.6
+27.5
+17.3
+301-400
+Nanjing University
+3
+0.0
+0.0
+0.0
+7.2
+42.1
+15.6
+301-400
+Nanyang Technological University
+2
+0.0
+0.0
+0.0
+0.0
+42.9
+18.2
+301-400
+National Cheng Kung University
+2
+0.0
+0.0
+0.0
+1.6
+39.4
+15.3
+301-400
+National Tsing Hua University
+2
+16.6
+0.0
+0.0
+5.1
+31.5
+19.1
+301-400
+Nihon University
+14
+0.0
+0.0
+7.9
+4.9
+28.9
+12.9
+301-400
+Niigata University
+14
+0.0
+0.0
+13.6
+7.1
+29.4
+17.5
+301-400
+Pohang University of Science and Technology
+3
+0.0
+0.0
+7.9
+11.3
+30.4
+14.2
+301-400
+Polytechnic Institute of Milan
+10
+10.9
+15.8
+0.0
+6.5
+27.7
+13.5
+301-400
+Royal Holloway, U. of London
+31
+0.0
+0.0
+7.9
+13.3
+22.5
+11.6
+301-400
+Saint Louis University
+120
+0.0
+12.9
+7.9
+1.6
+26.2
+16.3
+301-400
+Saint Petersburg State University
+2
+24.3
+0.0
+0.0
+6.0
+31.9
+15.6
+301-400
+San Diego State University
+120
+0.0
+0.0
+13.6
+10.0
+25.8
+12.4
+301-400
+Scuola Normale Superiore - Pisa
+10
+0.0
+0.0
+7.9
+7.4
+16.6
+38.1
+301-400
+Shanghai Jiao Tong University
+3
+0.0
+0.0
+0.0
+7.3
+40.9
+15.2
+301-400
+Simon Fraser University
+18
+0.0
+0.0
+11.1
+12.8
+30.5
+14.8
+301-400
+State University of New York Health Science Center at Brooklyn
+120
+0.0
+15.8
+11.1
+7.7
+17.4
+11.5
+301-400
+Stockholm School of Economics
+10
+0.0
+17.1
+0.0
+11.0
+29.4
+301-400
+Sungkyunkwan University
+3
+0.0
+0.0
+0.0
+6.0
+34.9
+15.0
+301-400
+Technical University of Braunschweig
+24
+16.6
+0.0
+7.9
+5.7
+23.8
+12.0
+301-400
+Temple University
+120
+0.0
+0.0
+15.7
+3.8
+31.7
+13.3
+301-400
+Texas Tech University
+120
+0.0
+0.0
+11.1
+10.0
+30.1
+14.0
+301-400
+The Hong Kong Polytechnic University
+4
+0.0
+0.0
+7.9
+0.0
+38.6
+18.3
+301-400
+The Open University
+31
+0.0
+0.0
+13.6
+14.4
+23.3
+13.0
+301-400
+The University of Montana - Missoula
+120
+8.9
+0.0
+11.1
+17.1
+16.6
+16.7
+301-400
+The University of Texas at Dallas
+120
+0.0
+0.0
+13.6
+4.9
+23.1
+18.0
+301-400
+The University of Tokushima
+14
+0.0
+0.0
+11.1
+4.9
+26.7
+17.8
+301-400
+Tokyo Medical and Dental University
+14
+0.0
+0.0
+7.9
+7.3
+26.9
+23.2
+301-400
+Tokyo University of Agriculture and Technology
+14
+0.0
+0.0
+7.9
+6.7
+25.7
+21.2
+301-400
+University of Aberdeen
+31
+0.0
+0.0
+0.0
+16.3
+32.8
+15.5
+301-400
+University of Bath
+31
+0.0
+0.0
+7.9
+17.6
+27.8
+14.4
+301-400
+University of Bayreuth
+24
+0.0
+0.0
+7.9
+16.2
+24.4
+12.9
+301-400
+University of Bergen
+3
+0.0
+0.0
+0.0
+12.5
+33.9
+15.3
+301-400
+University of Bielefeld
+24
+0.0
+0.0
+15.7
+12.3
+25.6
+13.8
+301-400
+University of Cagliari
+10
+0.0
+0.0
+11.1
+8.5
+22.5
+12.8
+301-400
+University of Chile
+1
+10.9
+0.0
+0.0
+7.2
+29.2
+13.2
+301-400
+University of Duesseldorf
+24
+0.0
+0.0
+7.9
+9.2
+32.6
+14.8
+301-400
+University of Essex
+31
+17.7
+0.0
+7.9
+7.6
+20.1
+11.1
+301-400
+University of Ferrara
+10
+0.0
+0.0
+7.9
+4.8
+27.3
+16.4
+301-400
+University of Graz
+3
+12.5
+12.9
+0.0
+6.0
+22.1
+11.8
+301-400
+University of Greifswald
+24
+0.0
+9.1
+7.9
+8.6
+22.8
+11.6
+301-400
+University of Konstanz
+24
+0.0
+0.0
+11.1
+15.3
+23.4
+12.8
+301-400
+University of Lausanne
+7
+0.0
+0.0
+0.0
+18.5
+28.2
+17.9
+301-400
+University of Nebraska Medical Center
+120
+0.0
+0.0
+15.7
+6.2
+20.9
+11.4
+301-400
+University of Nevada - Reno
+120
+0.0
+0.0
+7.9
+14.7
+24.5
+15.2
+301-400
+University of New Hampshire - Durham
+120
+0.0
+0.0
+15.7
+13.0
+24.7
+17.1
+301-400
+University of Newcastle
+10
+0.0
+0.0
+13.6
+5.5
+27.5
+15.4
+301-400
+University of Oklahoma - Norman
+120
+0.0
+0.0
+7.9
+13.1
+29.5
+12.5
+301-400
+University of Otago
+2
+0.0
+0.0
+11.1
+11.8
+31.8
+15.1
+301-400
+University of Palermo
+10
+0.0
+0.0
+13.6
+6.0
+25.7
+10.8
+301-400
+University of Paris Dauphine (Paris 9)
+14
+0.0
+27.3
+7.9
+0.0
+10.5
+12.9
+301-400
+University of Pavia
+10
+0.0
+0.0
+7.9
+10.4
+31.7
+16.0
+301-400
+University of Perugia
+10
+0.0
+0.0
+7.9
+9.2
+29.2
+14.8
+301-400
+University of Regensburg
+24
+0.0
+0.0
+7.9
+13.7
+32.0
+15.2
+301-400
+University of Rhode Island
+120
+0.0
+0.0
+19.2
+13.1
+19.7
+15.9
+301-400
+University of Roma - Tor Vergata
+10
+0.0
+0.0
+0.0
+7.4
+34.3
+16.1
+301-400
+University of Science and Technology of China
+3
+0.0
+0.0
+0.0
+10.5
+40.1
+16.9
+301-400
+University of the Mediterranean (Aix-Marseille 2)
+14
+0.0
+0.0
+13.6
+15.5
+24.7
+13.7
+301
+University of the Witwatersrand
+2
+25.1
+0.0
+0.0
+7.5
+26.1
+13.8
+301
+University of Twente
+10-11
+0.0
+0.0
+11.1
+15.0
+27.7
+16.7
+301-400
+University of Ulm
+24
+0.0
+0.0
+7.9
+12.3
+33.1
+15.4
+301-400
+University of Valencia
+4
+0.0
+0.0
+0.0
+7.7
+38.1
+16.5
+301-400
+University of Warsaw
+1
+17.7
+0.0
+0.0
+8.1
+35.1
+16.2
+301-400
+University of Wyoming
+120
+0.0
+0.0
+7.9
+12.5
+22.5
+14.2
+301-400
+Utah State University
+120
+0.0
+0.0
+7.9
+13.0
+23.7
+13.7
+301-400
+Vienna University of Technology
+3
+0.0
+0.0
+0.0
+14.8
+30.2
+14.3
+301-400
+Waseda University
+14
+0.0
+0.0
+11.1
+6.4
+29.0
+13.5
+301-400
+Yamaguchi University
+14
+0.0
+0.0
+15.7
+5.2
+23.9
+16.0
+301-400
+Zhejiang University
+3
+0.0
+0.0
+0.0
+5.7
+49.7
+13.7
+401-500
+Aalto University
+3
+0.0
+0.0
+0.0
+11.4
+28.6
+13.1
+401-500
+Autonomous University of Barcelona
+5
+0.0
+0.0
+0.0
+3.3
+35.4
+15.1
+401-500
+Boston College
+141
+0.0
+0.0
+7.9
+8.6
+21.7
+12.7
+401-500
+Drexel University
+141
+0.0
+0.0
+0.0
+11.8
+28.6
+15.5
+401-500
+Ehime University
+25
+0.0
+0.0
+7.9
+8.7
+23.0
+14.5
+401-500
+Flinders University
+11
+0.0
+0.0
+7.9
+6.4
+23.1
+14.9
+401-500
+Florida International University
+141
+0.0
+0.0
+7.9
+7.8
+24.1
+13.0
+401-500
+Gifu University
+25
+0.0
+0.0
+7.9
+5.2
+25.5
+16.2
+401-500
+Hacettepe University
+1
+0.0
+0.0
+0.0
+1.6
+32.4
+13.8
+401-500
+Hannover Medical School
+34
+0.0
+0.0
+0.0
+7.2
+27.9
+12.2
+401-500
+Hanyang University
+6
+0.0
+0.0
+0.0
+1.6
+35.3
+15.0
+401-500
+Howard University
+141
+15.4
+0.0
+7.9
+8.0
+18.7
+9.6
+401-500
+Indian Institute of Technology Kharagpur
+2
+0.0
+0.0
+11.1
+4.9
+24.5
+11.6
+401-500
+Istanbul University
+1
+0.0
+0.0
+0.0
+2.5
+31.1
+13.3
+401-500
+Jilin University
+8
+0.0
+0.0
+0.0
+6.2
+32.3
+9.1
+401-500
+Juntendo University
+25
+0.0
+0.0
+11.1
+5.8
+19.5
+9.9
+401-500
+Kagoshima University
+25
+0.0
+0.0
+7.9
+6.4
+24.1
+13.8
+401-500
+Kent State University
+141
+0.0
+0.0
+7.9
+5.4
+23.0
+11.5
+401-500
+Korea University
+6
+0.0
+0.0
+0.0
+0.0
+36.8
+15.6
+401-500
+Kumamoto University
+25
+0.0
+0.0
+0.0
+8.5
+27.2
+16.0
+401-500
+Kyungpook National University
+6
+0.0
+0.0
+0.0
+4.9
+30.4
+13.1
+401-500
+La Trobe University
+11
+0.0
+0.0
+7.9
+8.3
+24.2
+12.2
+401-500
+Lehigh University
+141
+0.0
+0.0
+11.1
+5.4
+21.6
+15.9
+401-500
+Loyola University Chicago
+141
+0.0
+0.0
+7.9
+3.8
+24.8
+11.2
+401-500
+Massey University
+3
+0.0
+0.0
+7.9
+7.2
+23.6
+11.0
+401-500
+Medical College of Georgia
+141
+0.0
+0.0
+7.9
+9.2
+21.7
+10.6
+401-500
+Medical University of Graz
+5
+0.0
+11.2
+11.1
+3.8
+17.5
+9.0
+401-500
+Medical University of Innsbruck
+5
+0.0
+0.0
+7.9
+5.2
+21.8
+10.1
+401-500
+Memorial University of Newfoundland
+20
+0.0
+0.0
+7.9
+6.4
+22.0
+10.3
+401-500
+Michigan Technological University
+141
+12.5
+0.0
+11.1
+5.7
+16.0
+15.1
+401-500
+Montana State University - Bozeman
+141
+0.0
+0.0
+7.9
+7.6
+21.6
+10.3
+401-500
+Murdoch University
+11
+0.0
+0.0
+11.1
+4.1
+19.1
+14.6
+401-500
+Nara Institute of Science and Technology
+25
+0.0
+0.0
+11.1
+10.0
+18.8
+10.2
+401-500
+National Chiao Tung University
+4
+0.0
+0.0
+0.0
+0.0
+33.7
+18.5
+401-500
+National Yang Ming University
+4
+0.0
+0.0
+0.0
+5.6
+27.4
+19.5
+401-500
+New Jersey Institute of Technology
+141
+0.0
+0.0
+7.9
+7.3
+18.4
+13.8
+401-500
+New Mexico State University
+141
+0.0
+0.0
+11.1
+6.6
+22.6
+13.2
+401-500
+Northeastern University
+141
+0.0
+0.0
+7.9
+9.4
+24.6
+12.7
+401-500
+Northern Arizona University
+141
+0.0
+0.0
+11.1
+12.0
+15.1
+11.0
+401-500
+Old Dominion University
+141
+0.0
+0.0
+11.1
+6.2
+18.1
+11.9
+401-500
+Osaka City University
+25
+0.0
+0.0
+0.0
+8.0
+28.7
+12.7
+401-500
+Osaka Prefecture University
+25
+0.0
+0.0
+11.1
+2.2
+25.0
+11.6
+401-500
+Polytechnic University of Turin
+19
+0.0
+0.0
+11.1
+1.6
+24.9
+12.6
+401-500
+Polytechnic University of Valencia
+5
+0.0
+0.0
+0.0
+9.2
+26.4
+11.9
+401-500
+Saarland University
+34
+0.0
+0.0
+0.0
+9.6
+27.8
+12.5
+401-500
+Sao Paulo State University
+4
+0.0
+0.0
+0.0
+2.2
+32.0
+13.6
+401-500
+Southern Methodist University
+141
+15.4
+0.0
+7.9
+5.4
+18.7
+13.4
+401-500
+Swansea Univ
+37
+0.0
+0.0
+7.9
+6.4
+22.4
+10.4
+401-500
+The College of William and Mary
+141
+0.0
+0.0
+7.9
+10.7
+21.1
+13.7
+401-500
+The Graduate University for Advanced Studies
+25
+0.0
+0.0
+0.0
+16.1
+18.7
+10.5
+401-500
+The Royal Veterinary and Agricultural University
+5
+0.0
+0.0
+7.9
+8.2
+25.5
+11.8
+401-500
+The University of Akron
+141
+0.0
+0.0
+11.1
+4.9
+22.3
+11.9
+401-500
+The University of Connecticut Health Center
+141
+0.0
+0.0
+7.9
+14.1
+19.9
+10.9
+401-500
+The University of Memphis
+141
+0.0
+0.0
+7.9
+6.5
+21.1
+10.4
+401-500
+Tokyo Metropolitan University
+25
+0.0
+0.0
+7.9
+10.1
+24.2
+11.6
+401-500
+University College Cork
+2
+0.0
+0.0
+13.6
+3.5
+22.5
+11.3
+401-500
+University College Dublin
+2
+0.0
+0.0
+0.0
+9.0
+29.7
+13.2
+401-500
+University of Bari
+19
+0.0
+0.0
+0.0
+2.2
+31.5
+13.0
+401-500
+University of Bradford
+37
+0.0
+0.0
+11.1
+5.9
+19.8
+10.0
+401-500
+University of Bremen
+34
+0.0
+0.0
+0.0
+14.8
+25.5
+12.5
+401-500
+University of Calcutta
+2
+15.4
+12.9
+0.0
+0.0
+14.7
+9.5
+401-500
+University of Canterbury
+3
+0.0
+0.0
+7.9
+5.4
+23.9
+10.9
+401-500
+University of Central Florida
+141
+0.0
+0.0
+13.6
+0.0
+27.0
+11.9
+401-500
+University of Duisburg-Essen
+34
+0.0
+0.0
+0.0
+7.0
+31.1
+13.6
+401-500
+University of Exeter
+37
+0.0
+0.0
+0.0
+11.6
+29.3
+13.4
+401-500
+University of Fribourg
+8
+0.0
+0.0
+11.1
+11.6
+15.9
+16.7
+401-500
+University of Giessen
+34
+0.0
+0.0
+0.0
+7.1
+31.9
+13.9
+401-500
+University of Granada
+5
+0.0
+0.0
+0.0
+6.5
+31.8
+13.8
+401-500
+University of Haifa
+7
+0.0
+0.0
+7.9
+5.2
+26.4
+11.9
+401-500
+University of Idaho
+141
+0.0
+0.0
+7.9
+6.7
+22.5
+13.5
+401-500
+University of Jena
+34
+0.0
+0.0
+0.0
+8.6
+32.2
+14.2
+401-500
+University of Jyvaskyla
+3
+0.0
+0.0
+7.9
+9.0
+23.2
+11.1
+401-500
+University of KwaZulu-Natal
+3
+0.0
+0.0
+7.9
+8.9
+23.1
+11.0
+401-500
+University of Lisbon
+1
+0.0
+9.1
+0.0
+3.8
+24.3
+11.1
+401-500
+University of Louisville
+141
+0.0
+0.0
+0.0
+8.0
+31.2
+15.6
+401-500
+University of Maastricht
+12
+0.0
+0.0
+0.0
+4.9
+32.6
+17.3
+401-500
+University of Maine
+141
+0.0
+0.0
+7.9
+10.6
+19.5
+13.6
+401-500
+University of Maryland, Baltimore County
+141
+0.0
+0.0
+11.1
+8.6
+20.4
+14.9
+401-500
+University of Mississippi
+141
+0.0
+0.0
+7.9
+4.9
+24.3
+11.0
+401-500
+University of Oulu
+3
+0.0
+0.0
+0.0
+6.9
+29.9
+13.0
+401-500
+University of Parma
+19
+0.0
+0.0
+0.0
+7.8
+27.9
+13.6
+401-500
+University of Pretoria
+3
+0.0
+0.0
+0.0
+9.4
+25.4
+11.5
+401-500
+University of Provence (Aix-Marseille 1)
+20
+8.9
+0.0
+7.9
+5.5
+22.0
+10.5
+401-500
+University of Quebec
+20
+0.0
+0.0
+0.0
+6.6
+31.6
+13.7
+401-500
+University of Rostock
+34
+0.0
+0.0
+7.9
+6.0
+25.0
+11.4
+401-500
+University of Sevilla
+5
+0.0
+0.0
+0.0
+8.7
+30.7
+13.6
+401-500
+University of Sherbrooke
+20
+0.0
+0.0
+7.9
+9.7
+22.5
+10.9
+401-500
+University of Siena
+19
+0.0
+0.0
+0.0
+6.9
+27.1
+16.6
+401-500
+University of Surrey
+37
+0.0
+0.0
+0.0
+6.4
+30.2
+13.1
+401-500
+University of Tasmania
+11
+0.0
+0.0
+7.9
+7.5
+24.6
+15.3
+401-500
+University of Tennessee Health Science Center
+141
+0.0
+0.0
+7.9
+2.2
+25.3
+11.3
+401-500
+University of Trieste
+19
+0.0
+0.0
+0.0
+7.8
+27.6
+15.4
+401-500
+University of Tromso
+4
+0.0
+0.0
+11.1
+4.6
+21.8
+10.6
+401-500
+University of Wisconsin - Milwaukee
+141
+14.0
+0.0
+0.0
+6.4
+25.6
+11.8
+401-500
+University of Wroclaw
+3
+8.9
+0.0
+0.0
+6.2
+25.2
+11.3
+401-500
+University of Zaragoza
+5
+0.0
+0.0
+7.9
+4.3
+27.3
+12.2
+401-500
+Victor Segalen Bordeaux 2 University
+20
+0.0
+0.0
+7.9
+12.6
+21.2
+11.0
+401-500
+Victoria University of Wellington
+3
+15.4
+0.0
+0.0
+8.1
+22.0
+11.0
+401-500
+Vrije University Brussel
+7
+0.0
+0.0
+0.0
+9.1
+27.5
+20.6
+401-500
+York University
+20
+0.0
+0.0
+0.0
+10.8
+27.8
+12.7
+1
