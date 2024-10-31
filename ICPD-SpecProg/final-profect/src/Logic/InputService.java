@@ -44,7 +44,6 @@ public class InputService implements IReadable{
                 continue;
             }
 
-
             try {
                     line = scanner.nextLine();
                     university.setPlaceCountry(Integer.parseInt(line));
@@ -100,7 +99,6 @@ public class InputService implements IReadable{
             } catch(Exception e) {
                 continue;
             }
-
 
             try {
                 line = scanner.nextLine();
