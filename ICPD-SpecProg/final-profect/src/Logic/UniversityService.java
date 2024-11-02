@@ -1,9 +1,6 @@
 package Logic;
 
-import Comparators.ComparatorByEstimateCountNobelGraduates;
-import Comparators.ComparatorByNameAZ;
-import Comparators.ComparatorByPlaceInCountry;
-import Comparators.ComparatorsByNameZA;
+import Comparators.*;
 import Model.UniversityModel;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -24,6 +21,8 @@ public class UniversityService<T extends UniversityModel>{
     }
 
     public void sortByPlaceInCountry() { Collections.sort(this.list, new ComparatorByPlaceInCountry<>()); }
+
+    public void sortByTotalScore() { Collections.sort(this.list, new ComparatorByTotalScore<>()); }
 
     public void sortByEstimateCountNobelGraduates() { Collections.sort(this.list, new ComparatorByEstimateCountNobelGraduates<>()); }
 }
