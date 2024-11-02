@@ -117,7 +117,7 @@ public class InputService implements IReadable{
                 continue;
             }
             universityModels.add(university);
-            System.out.println(String.format("University # %d\n%s", ++i, university));
+//            System.out.println(String.format("University # %d\n%s", ++i, university));
         }
         return  universityModels;
     }

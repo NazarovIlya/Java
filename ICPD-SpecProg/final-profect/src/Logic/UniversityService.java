@@ -1,5 +1,6 @@
 package Logic;
 
+import Comparators.ComparatorByEstimateCountNobelGraduates;
 import Comparators.ComparatorByNameAZ;
 import Comparators.ComparatorByPlaceInCountry;
 import Comparators.ComparatorsByNameZA;
@@ -23,4 +24,6 @@ public class UniversityService<T extends UniversityModel>{
     }
 
     public void sortByPlaceInCountry() { Collections.sort(this.list, new ComparatorByPlaceInCountry<>()); }
+
+    public void sortByEstimateCountNobelGraduates() { Collections.sort(this.list, new ComparatorByEstimateCountNobelGraduates<>()); }
 }

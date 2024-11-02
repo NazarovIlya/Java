@@ -25,7 +25,7 @@ public class Presenter {
         ArrayList<UniversityModel> universityList = new ArrayList<UniversityModel>();
         // Чтение из файла с охранением с в списке
         ArrayList<UniversityModel> universityModels = inputService.ReadFromTXT();
-        System.out.println(universityModels);
+//        System.out.println(universityModels);
 
         int i = 0;
         while (true) {
@@ -34,13 +34,13 @@ public class Presenter {
 
             //  САМАЯ ПЕРВАЯ СОРТИРОВКА - нужна в любом случае для того, чтобы не вызывать методы лишний раз
 //            service.sortByNameAZ();
-            service.sortByPlaceInCountry();
+            service.sortByEstimateCountNobelGraduates();
             // Печать списка университетов
             System.out.println(universityModels);
 
             int index = view.menu();
             commands.get(index).execute();
-            System.out.println(String.format("! ! ! --> %d", index));
+//            System.out.println(String.format("! ! ! --> %d", index));
             i++;
             break;
         }
