@@ -1,6 +1,7 @@
 package Logic;
 
 import Comparators.ComparatorByNameAZ;
+import Comparators.ComparatorByPlaceInCountry;
 import Comparators.ComparatorsByNameZA;
 import Model.UniversityModel;
 import java.util.ArrayList;
@@ -20,4 +21,6 @@ public class UniversityService<T extends UniversityModel>{
     public void sortByNameZA(){
         Collections.sort(this.list, new ComparatorsByNameZA<>());
     }
+
+    public void sortByPlaceInCountry() { Collections.sort(this.list, new ComparatorByPlaceInCountry<>()); }
 }

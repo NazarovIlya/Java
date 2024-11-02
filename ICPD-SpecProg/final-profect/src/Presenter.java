@@ -33,7 +33,8 @@ public class Presenter {
             UniversityService service = new UniversityService(universityModels);
 
             //  САМАЯ ПЕРВАЯ СОРТИРОВКА - нужна в любом случае для того, чтобы не вызывать методы лишний раз
-            service.sortByNameAZ();
+//            service.sortByNameAZ();
+            service.sortByPlaceInCountry();
             // Печать списка университетов
             System.out.println(universityModels);
 
