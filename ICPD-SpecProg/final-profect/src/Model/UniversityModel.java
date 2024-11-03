@@ -121,6 +121,6 @@ public class UniversityModel{
         return String.format("%s\n%d\n%.1f\n%.1f\n%.1f\n%.1f\n%.1f\n%.1f\n%.1f\n%s\n",
                 name, placeCountry, totalScore, estimateCountNobelGraduates, estimateCountNobelEmployees, rankCitationIndex,
                 estimateCountArticlesNatureScience, estimateTotalCountArticles, weightedAssessment,
-                (scores[1] > 0 ? String.format("%d-%d", scores[0], scores[1]) : scores[0]));
+                (scores[1] > 0 ? String.format("%d-%d", scores[0], scores[1]) : String.format("%d", scores[0])));
     }
 }

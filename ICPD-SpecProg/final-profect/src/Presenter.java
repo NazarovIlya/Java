@@ -14,30 +14,28 @@ public class Presenter {
 
     public void start(){
 
-        ICommand[] commandList = new ICommand[]
-                {
-                        new QuiteCommand(),
-                        new QuiteCommand(),
-                        new QuiteCommand()
-                };
-        ArrayList<ICommand> commands = new ArrayList<>(Arrays.asList(commandList));
-        IView view = new ViewConsole(commands);
         InputService inputService = new InputService(".\\resources\\", "data_univer.txt");
         ArrayList<UniversityModel> universityList = new ArrayList<UniversityModel>();
         // Чтение из файла с охранением с в списке
         ArrayList<UniversityModel> universityModels = inputService.ReadFromTXT();
+        UniversityService service = new UniversityService(universityModels);
+
+        ICommand[] commandList = new ICommand[]
+                {
+                        new QuiteCommand(service)
+                };
+        ArrayList<ICommand> commands = new ArrayList<>(Arrays.asList(commandList));
+        IView view = new ViewConsole(commands);
+
 //        System.out.println(universityModels);
 
         int i = 0;
-        while (true) {
-
-            UniversityService service = new UniversityService(universityModels);
+        while (service.getRunStatus()) {
 
             //  САМАЯ ПЕРВАЯ СОРТИРОВКА - нужна в любом случае для того, чтобы не вызывать методы лишний раз
             service.sortByNameAZ();
             service.sortByScores();
             // Печать списка университетов
-//            System.out.println(universityModels);
             universityModels.stream().forEach(System.out::println);
 
             int index = view.menu();

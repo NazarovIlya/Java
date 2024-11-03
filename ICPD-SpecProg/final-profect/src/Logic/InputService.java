@@ -102,14 +102,13 @@ public class InputService implements IReadable{
 
             try {
                 line = scanner.nextLine();
-                if (line.contains("-")) {
+                if (line.contains("-") && !isString(line)) {
                     String[] arrStr = line.split("-");
                     first = Integer.parseInt(arrStr[0]);
                     second = Integer.parseInt(arrStr[1]);
                     university.setScores(first, second);
                 } else {
-                    if (scanner.hasNextInt()) {
-                        line = scanner.nextLine();
+                    if (!isString(line)) {
                         university.setScores(Integer.parseInt(line));
                     }
                 }
@@ -117,7 +116,6 @@ public class InputService implements IReadable{
                 continue;
             }
             universityModels.add(university);
-//            System.out.println(String.format("University # %d\n%s", ++i, university));
         }
         return  universityModels;
     }

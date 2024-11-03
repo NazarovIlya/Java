@@ -7,9 +7,19 @@ import java.util.Collections;
 
 public class UniversityService<T extends UniversityModel>{
     private ArrayList<T> list;
+    private boolean runStatus;
 
     public UniversityService(ArrayList<T> list) {
         this.list = list;
+        this.runStatus = true;
+    }
+
+    public boolean getRunStatus() {
+        return runStatus;
+    }
+
+    public void setRunStatus(boolean value) {
+        this.runStatus = value;
     }
 
     public void sortByNameAZ(){
