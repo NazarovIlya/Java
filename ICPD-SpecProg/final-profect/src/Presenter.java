@@ -30,6 +30,8 @@ public class Presenter {
                         new SortByRankCitationIndexCommand(service),
                         new SortByEstimateCountArticlesNatureScienceCommand(service),
                         new SortByEstimateTotalCountArticlesCommand(service),
+                        new SortByWeightedAssessmentCommand(service),
+
                 };
         ArrayList<ICommand> commands = new ArrayList<>(Arrays.asList(commandList));
         IView view = new ViewConsole(commands);
