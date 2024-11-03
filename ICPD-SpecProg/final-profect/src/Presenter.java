@@ -7,6 +7,7 @@ import View.ViewConsole;
 import Model.UniversityModel;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 
 public class Presenter {
@@ -33,10 +34,11 @@ public class Presenter {
             UniversityService service = new UniversityService(universityModels);
 
             //  САМАЯ ПЕРВАЯ СОРТИРОВКА - нужна в любом случае для того, чтобы не вызывать методы лишний раз
-//            service.sortByNameAZ();
-            service.sortByTotalScore();
+            service.sortByNameAZ();
+            service.sortByEstimateCountNobelEmployees();
             // Печать списка университетов
-            System.out.println(universityModels);
+//            System.out.println(universityModels);
+            universityModels.stream().forEach(System.out::println);
 
             int index = view.menu();
             commands.get(index).execute();
