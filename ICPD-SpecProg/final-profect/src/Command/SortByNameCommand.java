@@ -2,10 +2,10 @@ package Command;
 
 import Logic.UniversityService;
 
-public class SortByName implements ICommand{
+public class SortByNameCommand implements ICommand{
     private UniversityService service;
 
-    public SortByName(UniversityService service){
+    public SortByNameCommand(UniversityService service){
         this.service = service;
     }
     @Override

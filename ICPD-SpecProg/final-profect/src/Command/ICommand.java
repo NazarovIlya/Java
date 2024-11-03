@@ -1,6 +1,8 @@
 package Command;
 
+import sun.reflect.ReflectionFactory;
+
 public interface ICommand {
-    void execute() throws InterruptedException;
+    void execute();
     String description();
 }

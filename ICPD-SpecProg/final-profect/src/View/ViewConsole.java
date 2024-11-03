@@ -15,6 +15,7 @@ public class ViewConsole implements IView {
     @Override
     public int menu() {
         int size = this.commands.size();
+        System.out.println("Выберите пункт меню из списка:");
         for (int i = 0; i < size; i++) {
             System.out.println(String.format("%d --> %s", i, this.commands.get(i).description()));
         }
@@ -30,7 +31,6 @@ public class ViewConsole implements IView {
         Scanner scanner = new Scanner(System.in);
 
         while(flag){
-            System.out.println("Выберите пункт меню из списка");
             input = scanner.nextLine();
             if (!input.isEmpty() && isDigit(input) && input.matches(regex)) {
                 index = Integer.parseInt(input);

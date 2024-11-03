@@ -1,5 +1,4 @@
-import Command.ICommand;
-import Command.SortByName;
+import Command.*;
 import Logic.InputService;
 import Logic.UniversityService;
 import View.IView;
@@ -8,7 +7,6 @@ import View.ViewConsole;
 import Model.UniversityModel;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 
 public class Presenter {
@@ -24,25 +22,28 @@ public class Presenter {
         ICommand[] commandList = new ICommand[]
                 {
                         new QuiteCommand(service),
-                        new SortByName(service)
+                        new SortByNameCommand(service),
+                        new SortByPlaceInCountryCommand(service),
+                        new SortByTotalScoreCommand(service),
+                        new SortByEstimateCountNobelGraduatesCommand(service),
+                        new SortByEstimateCountNobelEmployeesCommand(service),
+                        new SortByRankCitationIndexCommand(service),
                 };
         ArrayList<ICommand> commands = new ArrayList<>(Arrays.asList(commandList));
         IView view = new ViewConsole(commands);
 
 
         while (service.getRunStatus()) {
-
-            //  САМАЯ ПЕРВАЯ СОРТИРОВКА - нужна в любом случае для того, чтобы не вызывать методы лишний раз
+            //  САМАЯ ПЕРВАЯ СОРТИРОВКА - алфавиту (нужна в любом случае для того, чтобы не вызывать методы лишний раз)
             service.sortByNameAZ();
             // МЕНЮ
             int index = view.menu();
-            try {
-                commands.get(index).execute();
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
+            commands.get(index).execute();
+
+            if(index != 0) {
+                // Печать списка университетов
+                universityModels.stream().forEach(System.out::println);
             }
-            // Печать списка университетов
-            universityModels.stream().forEach(System.out::println);
         }
         System.out.println("ОТРАБОТАЛ...");
     }
