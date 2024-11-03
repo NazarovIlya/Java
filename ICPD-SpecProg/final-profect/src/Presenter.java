@@ -38,6 +38,7 @@ public class Presenter {
 
 
         while (service.getRunStatus()) {
+
             //  САМАЯ ПЕРВАЯ СОРТИРОВКА - алфавиту (нужна в любом случае для того, чтобы не вызывать методы лишний раз)
             service.sortByNameAZ();
             // МЕНЮ
