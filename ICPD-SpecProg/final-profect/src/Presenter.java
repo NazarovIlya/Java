@@ -29,6 +29,7 @@ public class Presenter {
                         new SortByEstimateCountNobelEmployeesCommand(service),
                         new SortByRankCitationIndexCommand(service),
                         new SortByEstimateCountArticlesNatureScienceCommand(service),
+                        new SortByEstimateTotalCountArticlesCommand(service),
                 };
         ArrayList<ICommand> commands = new ArrayList<>(Arrays.asList(commandList));
         IView view = new ViewConsole(commands);
