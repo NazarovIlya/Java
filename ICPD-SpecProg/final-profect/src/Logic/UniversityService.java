@@ -27,4 +27,6 @@ public class UniversityService<T extends UniversityModel>{
     public void sortByEstimateCountNobelGraduates() { Collections.sort(this.list, new ComparatorByEstimateCountNobelGraduates<>()); }
 
     public void sortByEstimateCountNobelEmployees() { Collections.sort(this.list, new ComparatorByEstimateCountNobelEmployees<>()); }
+
+    public void sortByRankCitationIndex() { Collections.sort(this.list, new ComparatorByRankCitationIndex<>()); }
 }
