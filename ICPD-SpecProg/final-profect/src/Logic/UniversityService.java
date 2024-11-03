@@ -35,4 +35,7 @@ public class UniversityService<T extends UniversityModel>{
     public void sortByEstimateTotalCountArticles() { Collections.sort(this.list, new ComparatorByEstimateTotalCountArticles<>()); }
 
     public void sortByWeightedAssessment() { Collections.sort(this.list, new ComparatorByWeightedAssessment<>()); }
+
+    public void sortByScores() { Collections.sort(this.list, new ComparatorByScores<>()); }
+
 }
