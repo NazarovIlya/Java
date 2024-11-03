@@ -26,7 +26,8 @@ public class ViewConsole implements IView {
         boolean flag = true;
         int index = 0;
         String input = "";
-        String regex = String.format("^[0-%d]$", size - 1);
+        //String regex = String.format("^[0-9]?$", size - 1);
+        String regex = String.format("^(%d|(1[0%d]|[0-9]{1}))$", size - 1, size - 11);
 
         Scanner scanner = new Scanner(System.in);
 
@@ -35,6 +36,9 @@ public class ViewConsole implements IView {
             if (!input.isEmpty() && isDigit(input) && input.matches(regex)) {
                 index = Integer.parseInt(input);
                 flag = false;
+            }
+            if(!input.matches(regex)){
+                System.out.println("Введите корректное число:");
             }
         }
         return index;

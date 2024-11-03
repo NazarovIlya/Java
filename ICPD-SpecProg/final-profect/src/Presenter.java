@@ -31,7 +31,7 @@ public class Presenter {
                         new SortByEstimateCountArticlesNatureScienceCommand(service),
                         new SortByEstimateTotalCountArticlesCommand(service),
                         new SortByWeightedAssessmentCommand(service),
-
+                        new SortByScoresCommand(service)
                 };
         ArrayList<ICommand> commands = new ArrayList<>(Arrays.asList(commandList));
         IView view = new ViewConsole(commands);
@@ -49,6 +49,5 @@ public class Presenter {
                 universityModels.stream().forEach(System.out::println);
             }
         }
-        System.out.println("ОТРАБОТАЛ...");
     }
 }
