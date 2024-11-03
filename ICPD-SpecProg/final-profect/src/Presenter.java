@@ -35,7 +35,7 @@ public class Presenter {
 
             //  САМАЯ ПЕРВАЯ СОРТИРОВКА - нужна в любом случае для того, чтобы не вызывать методы лишний раз
             service.sortByNameAZ();
-            service.sortByRankCitationIndex();
+            service.sorteByEtimateCountArticlesNatureScience();
             // Печать списка университетов
 //            System.out.println(universityModels);
             universityModels.stream().forEach(System.out::println);
