@@ -1,53 +1,54 @@
-import Command.ICommand;
-import Comparators.ComparatorByNameAZ;
+import Command.*;
 import Logic.InputService;
 import Logic.UniversityService;
 import View.IView;
 import View.QuiteCommand;
 import View.ViewConsole;
 import Model.UniversityModel;
-
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 
 public class Presenter {
 
     public void start(){
 
-        ICommand[] commandList = new ICommand[]
-                {
-                        new QuiteCommand(),
-                        new QuiteCommand(),
-                        new QuiteCommand()
-                };
-        ArrayList<ICommand> commands = new ArrayList<>(Arrays.asList(commandList));
-        IView view = new ViewConsole();
         InputService inputService = new InputService(".\\resources\\", "data_univer.txt");
         ArrayList<UniversityModel> universityList = new ArrayList<UniversityModel>();
-        UniversityService service = new UniversityService(universityList);
+        // Чтение из файла с охранением с в списке
+        ArrayList<UniversityModel> universityModels = inputService.ReadFromTXT();
+        UniversityService service = new UniversityService(universityModels);
 
-        UniversityModel a = new UniversityModel();
-        UniversityModel b = new UniversityModel();
+        ICommand[] commandList = new ICommand[]
+                {
+                        new QuiteCommand(service),
+                        new SortByNameCommand(service),
+                        new SortByPlaceInCountryCommand(service),
+                        new SortByTotalScoreCommand(service),
+                        new SortByEstimateCountNobelGraduatesCommand(service),
+                        new SortByEstimateCountNobelEmployeesCommand(service),
+                        new SortByRankCitationIndexCommand(service),
+                        new SortByEstimateCountArticlesNatureScienceCommand(service),
+                        new SortByEstimateTotalCountArticlesCommand(service),
+                        new SortByWeightedAssessmentCommand(service),
+                        new SortByScoresCommand(service)
+                };
+        ArrayList<ICommand> commands = new ArrayList<>(Arrays.asList(commandList));
+        IView view = new ViewConsole(commands);
 
-        a.setName("BBB");
-        a.setScores(120, 160);
-        b.setName("AAA");
 
-        universityList.add(a);
-        universityList.add(b);
+        while (service.getRunStatus()) {
 
+            //  САМАЯ ПЕРВАЯ СОРТИРОВКА - алфавиту (нужна в любом случае для того, чтобы не вызывать методы лишний раз)
+            service.sortByNameAZ();
+            // МЕНЮ
+            int index = view.menu();
+            commands.get(index).execute();
 
-        System.out.println(universityList);
-//      САМАЯ ПЕРВАЯ СОРТИРОВКА - нужна в любом случае для того, чтобы не вызывать методы лишний раз
-        service.sortByNameAZ();
-        System.out.println(universityList);
-
-
-        while (true) {
-            view.menu(commands);
-            break;
+            if(index != 0) {
+                // Печать списка университетов
+                universityModels.stream().forEach(System.out::println);
+            }
         }
     }
 }
