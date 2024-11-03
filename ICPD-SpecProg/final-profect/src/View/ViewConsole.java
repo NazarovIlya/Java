@@ -25,12 +25,12 @@ public class ViewConsole implements IView {
         boolean flag = true;
         int index = 0;
         String input = "";
-        String regex = String.format("^[0-%d]$", size);
+        String regex = String.format("^[0-%d]$", size - 1);
 
         Scanner scanner = new Scanner(System.in);
 
         while(flag){
-            System.out.println("Выберите пункт меню из списка:");
+            System.out.println("Выберите пункт меню из списка");
             input = scanner.nextLine();
             if (!input.isEmpty() && isDigit(input) && input.matches(regex)) {
                 index = Integer.parseInt(input);

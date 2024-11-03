@@ -127,23 +127,4 @@ public class InputService implements IReadable{
             }
         return false;
     }
-
-//    private boolean isIntNumeric(String line) {
-//        try {
-//            Integer.parseInt(line);
-//        } catch (Exception e){
-//            return false;
-//        }
-//        return true;
-//    }
-//
-//    private boolean isFloatNumeric(String line){
-//        try {
-//            Float.parseFloat(line);
-//        } catch (Exception e){
-//            return false;
-//        }
-//        return true;
-//    }
-
 }

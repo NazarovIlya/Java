@@ -12,8 +12,8 @@ public class QuiteCommand implements ICommand {
     }
     @Override
     public void execute() {
-        System.out.println("Программа завершила свое выполнение");
         service.setRunStatus(false);
+        System.out.println("Программа завершила свое выполнение");
     }
 
     @Override

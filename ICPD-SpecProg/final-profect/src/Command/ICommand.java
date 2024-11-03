@@ -1,6 +1,6 @@
 package Command;
 
 public interface ICommand {
-    void execute();
+    void execute() throws InterruptedException;
     String description();
 }

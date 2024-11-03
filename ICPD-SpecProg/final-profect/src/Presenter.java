@@ -1,4 +1,5 @@
 import Command.ICommand;
+import Command.SortByName;
 import Logic.InputService;
 import Logic.UniversityService;
 import View.IView;
@@ -22,27 +23,26 @@ public class Presenter {
 
         ICommand[] commandList = new ICommand[]
                 {
-                        new QuiteCommand(service)
+                        new QuiteCommand(service),
+                        new SortByName(service)
                 };
         ArrayList<ICommand> commands = new ArrayList<>(Arrays.asList(commandList));
         IView view = new ViewConsole(commands);
 
-//        System.out.println(universityModels);
 
-        int i = 0;
         while (service.getRunStatus()) {
 
             //  САМАЯ ПЕРВАЯ СОРТИРОВКА - нужна в любом случае для того, чтобы не вызывать методы лишний раз
             service.sortByNameAZ();
-            service.sortByScores();
+            // МЕНЮ
+            int index = view.menu();
+            try {
+                commands.get(index).execute();
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
             // Печать списка университетов
             universityModels.stream().forEach(System.out::println);
-
-            int index = view.menu();
-            commands.get(index).execute();
-//            System.out.println(String.format("! ! ! --> %d", index));
-            i++;
-            break;
         }
         System.out.println("ОТРАБОТАЛ...");
     }
